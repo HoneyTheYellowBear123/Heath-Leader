@@ -265,8 +265,8 @@ VALUES	('TRAIT_LEADER_HEATH_COFFEE',						'HEATH_COFFEE_MODIFIER_ID');
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers	
-		(ModifierId,												ModifierType,				SubjectRequirementSetId)										
-VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY',					'PLAYER_HAS_POTTERY_AND_CAPITAL');
+		(ModifierId,												ModifierType,				RunOnce,        Permanent,           SubjectRequirementSetId)										
+VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT_EXTRACTION',	       1,		1,		Null);
 	
 	
 		
@@ -275,8 +275,8 @@ VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CI
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,							Value)
-VALUES	('HEATH_COFFEE_MODIFIER_ID',						'Amount',												'1'),
-		('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType'                                           'RESOURCE_COFFEE');
+VALUES	('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType'                                           'RESOURCE_COFFEE'),
+		('HEATH_COFFEE_MODIFIER_ID',						'Amount',												'2');
 
 
 
