@@ -1,0 +1,63 @@
+
+
+
+
+--==========================================================================================================================
+-- CONFIG DATA
+--==========================================================================================================================
+-- Players
+-------------------------------------	
+INSERT INTO Players	
+		(CivilizationType,						Portrait,								PortraitBackground,							LeaderType,						LeaderName,									LeaderIcon,								LeaderAbilityName,								LeaderAbilityDescription,									LeaderAbilityIcon,						CivilizationName,							CivilizationIcon,						CivilizationAbilityName,						CivilizationAbilityDescription,								CivilizationAbilityIcon)
+VALUES	('CIVILIZATION_JOEL_CIV_SHOSHONE',			'LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.dds',		'LEADER_JOHN_CURTIN_BACKGROUND',		'LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LOC_LEADER_JOEL_SACAGAWEA_SHOSHONE_NAME',		'ICON_LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_NAME',	'LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_DESCRIPTION',		'ICON_LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LOC_CIVILIZATION_JOEL_CIV_SHOSHONE_NAME',		'ICON_CIVILIZATION_JOEL_CIV_SHOSHONE',		'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_NAME',		'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_DESCRIPTION',				'ICON_CIVILIZATION_JOEL_CIV_SHOSHONE');
+
+INSERT INTO Players	
+		(Domain,						CivilizationType,						Portrait,								PortraitBackground,							LeaderType,						LeaderName,									LeaderIcon,								LeaderAbilityName,								LeaderAbilityDescription,									LeaderAbilityIcon,						CivilizationName,							CivilizationIcon,						CivilizationAbilityName,						CivilizationAbilityDescription,								CivilizationAbilityIcon)
+VALUES	('Players:Expansion1_Players',	'CIVILIZATION_JOEL_CIV_SHOSHONE',			'LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.dds',		'LEADER_JOHN_CURTIN_BACKGROUND',		'LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LOC_LEADER_JOEL_SACAGAWEA_SHOSHONE_NAME',		'ICON_LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_NAME',	'LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_DESCRIPTION',		'ICON_LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LOC_CIVILIZATION_JOEL_CIV_SHOSHONE_NAME',		'ICON_CIVILIZATION_JOEL_CIV_SHOSHONE',		'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_NAME',		'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_DESCRIPTION',				'ICON_CIVILIZATION_JOEL_CIV_SHOSHONE'),
+		('Players:Expansion2_Players',	'CIVILIZATION_JOEL_CIV_SHOSHONE',			'LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.dds',		'LEADER_JOHN_CURTIN_BACKGROUND',		'LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LOC_LEADER_JOEL_SACAGAWEA_SHOSHONE_NAME',		'ICON_LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_NAME',	'LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_DESCRIPTION',		'ICON_LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LOC_CIVILIZATION_JOEL_CIV_SHOSHONE_NAME',		'ICON_CIVILIZATION_JOEL_CIV_SHOSHONE',		'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_NAME',		'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_DESCRIPTION',				'ICON_CIVILIZATION_JOEL_CIV_SHOSHONE');
+
+
+
+
+
+
+-------------------------------------
+-- PlayerItems
+-------------------------------------	
+INSERT INTO PlayerItems	
+		(CivilizationType,					LeaderType,					Type,							Icon,								Name,									  	Description,									SortIndex)
+VALUES	
+		('CIVILIZATION_JOEL_CIV_SHOSHONE',		'LEADER_JOEL_SACAGAWEA_SHOSHONE',	'TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',	'ICON_BUILDING_WIGWAM',			'LOC_BUILDING_WIGWAM_NAME',				'LOC_BUILDING_WIGWAM_DESCRIPTION',			30),
+		('CIVILIZATION_JOEL_CIV_SHOSHONE',		'LEADER_JOEL_SACAGAWEA_SHOSHONE',	'UNIT_INDIAN_SPEAR',					'ICON_UNIT_INDIAN_SPEAR',		'LOC_UNIT_INDIAN_SPEAR_NAME',						'LOC_UNIT_INDIAN_SPEAR_DESCRIPTION',			30);
+
+
+		INSERT INTO PlayerItems	
+		(Domain,						CivilizationType,					LeaderType,					Type,							Icon,								Name,									  	Description,									SortIndex)
+VALUES
+		('Players:Expansion1_Players',		'CIVILIZATION_JOEL_CIV_SHOSHONE',		'LEADER_JOEL_SACAGAWEA_SHOSHONE',	'TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',				'ICON_BUILDING_WIGWAM',			'LOC_BUILDING_WIGWAM_NAME',				'LOC_BUILDING_WIGWAM_DESCRIPTION',			30),
+		('Players:Expansion1_Players',		'CIVILIZATION_JOEL_CIV_SHOSHONE',		'LEADER_JOEL_SACAGAWEA_SHOSHONE',	'UNIT_INDIAN_SPEAR',					'ICON_UNIT_INDIAN_SPEAR',		'LOC_UNIT_INDIAN_SPEAR_NAME',						'LOC_UNIT_INDIAN_SPEAR_DESCRIPTION',			30),
+
+
+		
+		('Players:Expansion2_Players',		'CIVILIZATION_JOEL_CIV_SHOSHONE',		'LEADER_JOEL_SACAGAWEA_SHOSHONE',	'TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',				'ICON_BUILDING_WIGWAM',			'LOC_BUILDING_WIGWAM_NAME',				'LOC_BUILDING_WIGWAM_DESCRIPTION',			30),
+		('Players:Expansion2_Players',		'CIVILIZATION_JOEL_CIV_SHOSHONE',		'LEADER_JOEL_SACAGAWEA_SHOSHONE',	'UNIT_INDIAN_SPEAR',					'ICON_UNIT_INDIAN_SPEAR',		'LOC_UNIT_INDIAN_SPEAR_NAME',						'LOC_UNIT_INDIAN_SPEAR_DESCRIPTION',			30);
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------
+-- MapSupportedValues
+-------------------------------------	
+--INSERT INTO MapSupportedValues	
+--		(Value,						Domain, Map)
+--SELECT	'LEADER_JOEL_SACAGAWEA_SHOSHONE',		Domain, Map
+--FROM MapSupportedValues WHERE Value= 'LEADER_TRAJAN';
+--==========================================================================================================================
+--==========================================================================================================================

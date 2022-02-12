@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <!-- INDIAN_SPEAR -->
+	<Types>
+		<Row Type="UNIT_INDIAN_SPEAR" Kind="KIND_UNIT" />
+		<Row Type="ABILITY_INDIAN_SPEAR" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<Tags>
+		<Row Tag="CLASS_INDIAN_SPEAR" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+
+	-<UnitReplaces>
+		<Row ReplacesUnitType="UNIT_SCOUT" CivUniqueUnitType="UNIT_INDIAN_SPEAR"/>
+	</UnitReplaces>
+	
+	<Units>
+		<Row>
+			<UnitType>UNIT_INDIAN_SPEAR</UnitType>
+			<Name>LOC_UNIT_INDIAN_SPEAR_NAME</Name>
+			<Description>LOC_UNIT_INDIAN_SPEAR_DESCRIPTION</Description>
+			<BaseSightRange>2</BaseSightRange>
+			<BaseMoves>2</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_SUPPORT</FormationClass>
+			<Cost>30</Cost>
+			<PrereqTech></PrereqTech>
+			<TraitType>TRAIT_CIVILIZATION_SHOSHONE_UNIT_INDIAN_SPEAR</TraitType>
+			<PromotionClass>PROMOTION_CLASS_SUPPORT</PromotionClass>				
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<ZoneOfControl>false</ZoneOfControl>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+		</Row>		
+	</Units>	
+	<TypeTags>
+		<Row Type="UNIT_INDIAN_SPEAR" Tag="CLASS_SUPPORT" />
+		<Row Type="ABILITY_INDIAN_SPEAR" Tag="CLASS_INDIAN_SPEAR" />
+		<Row Type="UNIT_INDIAN_SPEAR" Tag="CLASS_INDIAN_SPEAR"/>
+	</TypeTags>
+	
+	<UnitAIInfos>
+		<Row UnitType="UNIT_INDIAN_SPEAR" AIType="UNITAI_EXPLORE" />
+		<Row UnitType="UNIT_INDIAN_SPEAR" AIType="UNITTYPE_SIEGE_SUPPORT" />
+	</UnitAIInfos>
+
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_INDIAN_SPEAR" Name="Pathfinding" Description="+1 [ICON_Movement] Movement and ignore terrain costs for adjacent units when next to a Pathfinder." />
+	</UnitAbilities>
+
+
+
+
+	<Modifiers>
+		-<Row>
+			<ModifierId>INDIAN_SPEAR_MOVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>INDIAN_SPEAR_MOVEMENT</SubjectRequirementSetId>
+		</Row>
+		-<Row>
+			<ModifierId>JOEL_TRAIT_MOVE_WOODS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		-<Row>
+			<ModifierId>JOEL_TRAIT_MOVE_JUNGLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		-<Row>
+			<ModifierId>JOEL_TRAIT_MOVE_HILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+
+		-<Row>
+			<ModifierId>JOEL_TRAIT_MOVE_WOODS_ATTACH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+			<SubjectRequirementSetId>INDIAN_SPEAR_MOVEMENT</SubjectRequirementSetId>
+		</Row>
+		-<Row>
+			<ModifierId>JOEL_TRAIT_MOVE_JUNGLE_ATTACH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+			<SubjectRequirementSetId>INDIAN_SPEAR_MOVEMENT</SubjectRequirementSetId>
+		</Row>
+		-<Row>
+			<ModifierId>JOEL_TRAIT_MOVE_HILLS_ATTACH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+			<SubjectRequirementSetId>INDIAN_SPEAR_MOVEMENT</SubjectRequirementSetId>
+		</Row>
+		
+		-<Row>
+			<ModifierId>JOEL_TRAIT_PATHFINDER_MOVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+
+		-<Row>
+			<ModifierId>JOEL_TRAIT_FOREST_APPEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FOREST_NO_IMPROVEMENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+
+	<ModifierArguments>
+		-<Row>
+			<ModifierId>INDIAN_SPEAR_MOVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		-<Row>
+			<ModifierId>JOEL_TRAIT_PATHFINDER_MOVE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>INDIAN_SPEAR_MOVE</Value>
+		</Row>
+	</ModifierArguments>
+
+	-<RequirementSets>
+		-<Row>
+			<RequirementSetId>INDIAN_SPEAR_MOVEMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		-<Row>
+			<RequirementSetId>FOREST_IS_NOT_IMPROVED_TECH_REQUIRMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		-<Row>
+			<RequirementSetId>FOREST_IS_NOT_IMPROVED_TECH2_REQUIRMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	-<RequirementSetRequirements>
+		-<Row>
+			<RequirementSetId>INDIAN_SPEAR_MOVEMENT</RequirementSetId>
+			<RequirementId>INDIAN_SPEAR_MOVEMENT_REQUIREMENT</RequirementId>
+		</Row>
+		-<Row>
+			<RequirementSetId>FOREST_IS_NOT_IMPROVED_TECH_REQUIRMENT</RequirementSetId>
+			<RequirementId>PLAYER_HAS_X_TECH_REQUIRMENT</RequirementId>
+		</Row>
+		-<Row>
+			<RequirementSetId>FOREST_IS_NOT_IMPROVED_TECH_REQUIRMENT</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_IMPROVEMENT</RequirementId>
+		</Row>
+		-<Row>
+			<RequirementSetId>FOREST_IS_NOT_IMPROVED_TECH_REQUIRMENT</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FOREST_JOELID</RequirementId>
+		</Row>
+		-<Row>
+			<RequirementSetId>FOREST_IS_NOT_IMPROVED_TECH2_REQUIRMENT</RequirementSetId>
+			<RequirementId>PLAYER_HAS_Y_TECH_REQUIRMENT</RequirementId>
+		</Row>
+		-<Row>
+			<RequirementSetId>FOREST_IS_NOT_IMPROVED_TECH2_REQUIRMENT</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_IMPROVEMENT</RequirementId>
+		</Row>
+		-<Row>
+			<RequirementSetId>FOREST_IS_NOT_IMPROVED_TECH2_REQUIRMENT</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FOREST_JOELID</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	-<Requirements>
+		-<Row>
+			<RequirementId>INDIAN_SPEAR_MOVEMENT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		-<Row>
+			<RequirementId>PLAYER_HAS_X_TECH_REQUIRMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		-<Row>
+			<RequirementId>PLAYER_HAS_Y_TECH_REQUIRMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		-<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_FOREST_JOELID</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+
+	-<RequirementArguments>
+		-<Row>
+			<RequirementId>INDIAN_SPEAR_MOVEMENT_REQUIREMENT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_INDIAN_SPEAR</Value>
+		</Row>
+		-<Row>
+			<RequirementId>PLAYER_HAS_X_TECH_REQUIRMENT</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_EARLY_EMPIRE</Value>
+		</Row>
+		-<Row>
+			<RequirementId>PLAYER_HAS_Y_TECH_REQUIRMENT</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CONSERVATION</Value>
+		</Row>
+		-<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_FOREST_JOELID</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+	-</RequirementArguments>
+
+	
+	
+	
+	</GameData>

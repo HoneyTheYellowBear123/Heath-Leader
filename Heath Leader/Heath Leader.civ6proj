@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Heath Leader</Name>
+    <Guid>f30512fd-91ce-4c17-b594-c7a463f9f181</Guid>
+    <ProjectGuid>dc49be10-1174-4779-ac93-ea254e978ce1</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>How could it be how could it heath</Teaser>
+    <Description>How could it be how could it heath</Description>
+    <Authors>HoneyTheBear</Authors>
+    <SpecialThanks>Heath for being a peach</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>Heath Leader</AssemblyName>
+    <RootNamespace>Heath Leader</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_GameDefines.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs" />
+    <Folder Include="Core" />
+    <Folder Include="XLPs" />
+    <Folder Include="Textures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Colour.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Joshs_Template_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Joshs_Template_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Joshs_Template_GameDefines.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Joshs_Template_GameText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Joshs_Template_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\NewUnit_Gameplay.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Starting_Location.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Indean_tribe.dep">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mod.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_SACAGAWEA_SHOSHONE.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ART_LEADER_SACAGAWEA_SHOSHONE.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_SACAGAWEA.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_SACAGAWEA.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_WIGWAM_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SACAGAWEA_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_70.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_95.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_SCOUT_UNIT_95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderBackgrounds.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Leader_LEADER_CUSTOM.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
