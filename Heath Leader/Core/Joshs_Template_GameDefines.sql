@@ -266,7 +266,7 @@ VALUES	('TRAIT_LEADER_HEATH_COFFEE',						'HEATH_COFFEE_MODIFIER_ID');
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers	
 		(ModifierId,												ModifierType,				SubjectRequirementSetId)										
-VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY',					Null);
+VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY',					'PLAYER_HAS_POTTERY_AND_CAPITAL');
 	
 	
 		
