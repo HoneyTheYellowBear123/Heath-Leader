@@ -450,6 +450,15 @@
 		
 
 		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_HEATH_COFFEE_NAME" Language="en_US">
+			<Text>Caffine Enthusiast</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HEATH_COFFEE_DESCRIPTION" Language="en_US">
+			<Text>Empire is granted +1 free [Icon_RESOURCE_COFFEE] Coffee luxury resource. </Text>
+		</Row>
+		
+		
+		
 		<Row Tag="LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_NAME" Language="en_US">
 			<Text>Western Expedition</Text>
 		</Row>

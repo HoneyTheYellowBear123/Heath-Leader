@@ -238,6 +238,71 @@ VALUES
 
 
 --==========================================================================================================================
+-- LEADERS: TRAITS
+--==========================================================================================================================
+-- Types (Main Declaration)
+--------------------------------------------------------------------------------------------------------------------------	
+INSERT INTO Types	
+		(Type,														Kind)
+VALUES	('TRAIT_LEADER_HEATH_COFFEE',						'KIND_TRAIT');	
+--------------------------------------------------------------------------------------------------------------------------			
+-- Traits (Text)			
+--------------------------------------------------------------------------------------------------------------------------				
+INSERT INTO Traits				
+		(TraitType,													Name,													Description)
+VALUES	('TRAIT_LEADER_HEATH_COFFEE',						'LOC_TRAIT_LEADER_HEATH_COFFEE_NAME',			'LOC_TRAIT_LEADER_HEATH_COFFEE_DESCRIPTION');	
+
+
+--------------------------------------------------------------------------------------------------------------------------		
+-- TraitModifiers		
+--------------------------------------------------------------------------------------------------------------------------			
+INSERT INTO TraitModifiers			
+		(TraitType,													ModifierId)
+VALUES	('TRAIT_LEADER_HEATH_COFFEE',						'HEATH_COFFEE_MODIFIER_ID');
+		
+		
+--------------------------------------------------------------------------------------------------------------------------
+-- Modifiers
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO Modifiers	
+		(ModifierId,												ModifierType,				SubjectRequirementSetId)										
+VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY',					Null);
+	
+	
+		
+--------------------------------------------------------------------------------------------------------------------------
+-- ModifierArguments
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ModifierArguments
+		(ModifierId,												Name,							Value)
+VALUES	('HEATH_COFFEE_MODIFIER_ID',						'Amount',												'1'),
+		('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType'                                           'RESOURCE_COFFEE');
+
+
+
+
+--<ModifierId>GREATPERSON_GRANT_JEANS</ModifierId>
+--			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+--			<RunOnce>true</RunOnce>
+--			<Permanent>true</Permanent>
+
+
+--ModifierId>GREATPERSON_GRANT_JEANS</ModifierId>
+--			<Name>ResourceType</Name>
+--			<Value>RESOURCE_JEANS</Value>
+--		</Row>
+--		<Row>
+--			<ModifierId>GREATPERSON_GRANT_JEANS</ModifierId>
+--			<Name>Amount</Name>
+--			<Value>2</Value>
+
+
+
+
+
+
+
+--==========================================================================================================================
 -- CIVILIZATIONS: TRAITS
 --==========================================================================================================================
 -- Types
@@ -339,7 +404,7 @@ VALUES
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderTraits	
 		(LeaderType,			TraitType)
-VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE');	
+VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'TRAIT_LEADER_HEATH_COFFEE');	
 
 
 
