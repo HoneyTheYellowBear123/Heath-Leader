@@ -262,7 +262,7 @@
 		
 		<!--LEADER-->
 		<Row Tag="LOC_LEADER_JOEL_SACAGAWEA_SHOSHONE_NAME" Language="en_US">
-			<Text>Heath</Text>
+			<Text>Heath Murphy</Text>
 		</Row>
 
 		
@@ -274,7 +274,7 @@
 		
 		<!--Civilopedia-->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JOEL_SACAGAWEA_SHOSHONE_TITLE" Language="en_US">
-			<Text>Heath</Text>
+			<Text>Heath Murphy</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JOEL_SACAGAWEA_SHOSHONE_SUBTITLE" Language="en_US">
 			<Text>Explorer</Text>
