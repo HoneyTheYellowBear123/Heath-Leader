@@ -81,6 +81,42 @@
     <Content Include="Textures\ART_LEADER_SACAGAWEA_SHOSHONE.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_ARROW_UNIT_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_SHOSHONE_32.dds">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
@@ -102,31 +138,16 @@
     <Content Include="Textures\ICON_ARROW_UNIT_32.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_45.dds">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_ARROW_UNIT_45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_50.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_ARROW_UNIT_50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_55.dds">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_ARROW_UNIT_55.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_64.dds">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_ARROW_UNIT_64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_80.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_ARROW_UNIT_80.tex">
@@ -168,43 +189,22 @@
     <Content Include="Textures\ICON_BUILDING_WIGWAM_80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_256.dds">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_CIV_SHOSHONE_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_32.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_SHOSHONE_32.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_45.dds">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_CIV_SHOSHONE_45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_50.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_SHOSHONE_50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_55.dds">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_CIV_SHOSHONE_55.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_64.dds">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_CIV_SHOSHONE_64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_80.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_SHOSHONE_80.tex">
