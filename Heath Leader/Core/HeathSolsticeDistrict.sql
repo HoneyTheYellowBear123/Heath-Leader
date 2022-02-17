@@ -91,7 +91,7 @@
 
 
 	-----------------------------------------------------------------------------------
-	-- DistrictAdjacencies
+	-- District_Adjacencies
 	---------------------------------------------------------------------------------------
 		INSERT INTO District_Adjacencies
 					(DistrictType,							YieldChangeID)
@@ -134,5 +134,13 @@
 				(MomentIllustrationType, 						MomentDataType,					GameDataType,					Texture)
 		VALUES	('MOMENT_ILLUSTRATION_UNIQUE_DISTRICT', 		'MOMENT_DATA_DISTRICT',			'DISTRICT_HEATH_SOLSTICE',		'Moment_Infrastructure_Heath_Solstice.dds');
 
-	-------------------------------------------------------------------
 
+	---------------------------------------------------------------------------------
+	-- Trade Route Yields
+	---------------------------------------------------------------------------------
+
+		INSERT INTO District_TradeRouteYields
+					(DistrictType,	YieldType,	YieldChangeAsOrigin,	YieldChangeAsDomesticDestination,	YieldChangeAsInternationalDestination)
+
+		SELECT       'DISTRICT_HEATH_SOLSTICE', YieldType, YieldChangeAsOrigin, YieldChangeAsDomesticDestination, YieldChangeAsInternationalDestination
+		FROM District_TradeRouteYields WHERE DistrictType = 'DISTRICT_HOLY_SITE';
