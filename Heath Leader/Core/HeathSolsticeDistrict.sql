@@ -144,3 +144,11 @@
 
 		SELECT       'DISTRICT_HEATH_SOLSTICE', YieldType, YieldChangeAsOrigin, YieldChangeAsDomesticDestination, YieldChangeAsInternationalDestination
 		FROM District_TradeRouteYields WHERE DistrictType = 'DISTRICT_HOLY_SITE';
+
+	-------------------------------------------------------------------------------------
+	-- Citizen Yield Changes
+	-------------------------------------------------------------------------------------------
+		INSERT INTO District_CitizenYieldChanges	
+					(DistrictType,        YiledType,      YieldChange)
+		SELECT      'DISTRICT_HEATH_SOLSTICE', YieldType,  YieldChange
+		FROM District_CitizenYieldChanges WHERE DistrictType = 'DISTRICT_HOLY_SITE';
