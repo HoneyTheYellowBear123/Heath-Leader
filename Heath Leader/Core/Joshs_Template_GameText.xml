@@ -456,6 +456,13 @@
 		<Row Tag="LOC_TRAIT_LEADER_HEATH_COFFEE_DESCRIPTION" Language="en_US">
 			<Text>Empire is granted 2 free [Icon_RESOURCE_COFFEE] Coffee luxury resources. </Text>
 		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES_NAME" Language="en_US">
+			<Text>Material Sciences</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES_DESCRIPTION" Language="en_US">
+			<Text>Mines over Luxury Resources grant a bonus 2 [Icon_Gold] Gold, Mines over Bonus Resources grant a bonus 1 [Icon_Gold] Gold and 1 [Icon_Production], and Mines over Strategic Resources grant a bonus 2 [Icon_Production] Production and 1 [Icon_Science] Science. </Text>
+		</Row>
 		
 		
 		

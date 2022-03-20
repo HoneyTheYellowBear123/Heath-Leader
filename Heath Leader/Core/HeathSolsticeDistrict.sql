@@ -152,3 +152,5 @@
 					(DistrictType,        YiledType,      YieldChange)
 		SELECT      'DISTRICT_HEATH_SOLSTICE', YieldType,  YieldChange
 		FROM District_CitizenYieldChanges WHERE DistrictType = 'DISTRICT_HOLY_SITE';
+
+	--- To Do: buildings add a culture bonus

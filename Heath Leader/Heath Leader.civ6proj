@@ -48,6 +48,9 @@
     <Content Include="Core\Colour.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Core\HeathMineBonus.sql">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Core\Joshs_Template_Buildings.xml">
       <SubType>Content</SubType>
     </Content>
@@ -70,9 +73,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Indean_tribe.dep">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Mod.Art.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ART_LEADER_SACAGAWEA_SHOSHONE.dds">

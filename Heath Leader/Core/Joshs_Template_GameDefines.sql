@@ -303,7 +303,7 @@ VALUES	('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType'       
 
 
 --==========================================================================================================================
--- CIVILIZATIONS: TRAITS
+-- CIVILIZATIONS: TRAITS ----------- DELETE ME
 --==========================================================================================================================
 -- Types
 --------------------------------------------------------------------------------------------------------------------------	
@@ -384,17 +384,66 @@ VALUES
 		
 
 
+--==========================================================================================================================
+-- CIVILIZATIONS: TRAITS ----------- BOOEY BOYS
+--==========================================================================================================================
+-- Types
+--------------------------------------------------------------------------------------------------------------------------	
+INSERT INTO Types	
+		(Type,													Kind)
+VALUES	('TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES',						'KIND_TRAIT');
 
+			
+--------------------------------------------------------------------------------------------------------------------------			
+-- Traits			
+--------------------------------------------------------------------------------------------------------------------------				
+INSERT INTO Traits				
+		(TraitType,													Name,													Description)
+VALUES	('TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES',						'LOC_TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES_NAME',					'LOC_TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES_DESCRIPTION');
+		
+--------------------------------------------------------------------------------------------------------------------------		
+-- TraitModifiers		
+--------------------------------------------------------------------------------------------------------------------------			
+INSERT INTO TraitModifiers			
+		(TraitType,											                    ModifierId)
+VALUES
+		('TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES',					'MATERIAL_SCIENCES_LUXURY_GOLD_HEATH'),
+		('TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES',					'MATERIAL_SCIENCES_BONUS_GOLD_HEATH'),
+		('TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES',					'MATERIAL_SCIENCES_BONUS_PRODUCTION_HEATH'),
+		('TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES',					'MATERIAL_SCIENCES_STRATEGIC_PRODUCTION_HEATH'),
+		('TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES',					'MATERIAL_SCIENCES_STRATEGIC_SCIENCE_HEATH');
+																					
 
-
-
-
-
-
-
-
-
-
+	--------------------------------------------------------------------------------------------------------------------------
+-- Modifiers
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO Modifiers	
+		(ModifierId,												ModifierType,						SubjectRequirementSetId)
+VALUES	('MATERIAL_SCIENCES_LUXURY_GOLD_HEATH',					'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'PLOT_HAS_LUXURY_MINE_REQUIREMENTS'),
+		('MATERIAL_SCIENCES_BONUS_GOLD_HEATH',					'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'PLOT_HAS_BONUS_MINE_REQUIREMENTS'),
+		('MATERIAL_SCIENCES_BONUS_PRODUCTION_HEATH',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'PLOT_HAS_BONUS_MINE_REQUIREMENTS'),
+		('MATERIAL_SCIENCES_STRATEGIC_PRODUCTION_HEATH',		'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS'),
+		('MATERIAL_SCIENCES_STRATEGIC_SCIENCE_HEATH',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS');
+		
+					
+--------------------------------------------------------------------------------------------------------------------------
+-- ModifierArguments
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ModifierArguments
+		(ModifierId,													Name,								Value)
+VALUES	
+		('MATERIAL_SCIENCES_LUXURY_GOLD_HEATH',							'Amount',							'2'),
+		('MATERIAL_SCIENCES_LUXURY_GOLD_HEATH',							'YieldType',						'YIELD_GOLD'),
+		('MATERIAL_SCIENCES_BONUS_GOLD_HEATH',							'Amount',							'1'),
+		('MATERIAL_SCIENCES_BONUS_GOLD_HEATH',							'YieldType',						'YIELD_GOLD'),
+		('MATERIAL_SCIENCES_BONUS_PRODUCTION_HEATH',					'Amount',							'1'),
+		('MATERIAL_SCIENCES_BONUS_PRODUCTION_HEATH',					'YieldType',						'YIELD_PRODUCTION'),
+		('MATERIAL_SCIENCES_STRATEGIC_PRODUCTION_HEATH',				'YieldType',						'YIELD_PRODUCTION'),
+		('MATERIAL_SCIENCES_STRATEGIC_PRODUCTION_HEATH',				'Amount',							'2'),
+		('MATERIAL_SCIENCES_STRATEGIC_SCIENCE_HEATH',					'Amount',							'1'),
+		('MATERIAL_SCIENCES_STRATEGIC_SCIENCE_HEATH',					'YieldType',						'YIELD_SCIENCE');
+	
+		
 
 
 
@@ -414,7 +463,7 @@ VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'TRAIT_LEADER_HEATH_COFFEE');
 INSERT INTO CivilizationTraits	
 		(TraitType,															CivilizationType)
 VALUES	
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',									'CIVILIZATION_JOEL_CIV_SHOSHONE'),
+		('TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES',									'CIVILIZATION_JOEL_CIV_SHOSHONE'),
 		('TRAIT_CIVILIZATION_SHOSHONE_UNIT_INDIAN_SPEAR',								'CIVILIZATION_JOEL_CIV_SHOSHONE'),
 		('TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',						'CIVILIZATION_JOEL_CIV_SHOSHONE');
 
