@@ -307,79 +307,79 @@ VALUES	('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType',      
 --==========================================================================================================================
 -- Types
 --------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO Types	
-		(Type,													Kind)
-VALUES	('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',						'KIND_TRAIT'),
-		('TRAIT_CIVILIZATION_SHOSHONE_UNIT_INDIAN_SPEAR',						'KIND_TRAIT'),
-		('TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',					'KIND_TRAIT');
+--INSERT INTO Types	
+--		(Type,													Kind)
+--VALUES	('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',						'KIND_TRAIT'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_UNIT_INDIAN_SPEAR',						'KIND_TRAIT'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',					'KIND_TRAIT');
 		
 			
 --------------------------------------------------------------------------------------------------------------------------			
 -- Traits			
 --------------------------------------------------------------------------------------------------------------------------				
-INSERT INTO Traits				
-		(TraitType,													Name,													Description)
-VALUES	('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',						'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_NAME',					'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_SHOSHONE_UNIT_INDIAN_SPEAR',					'LOC_UNIT_INDIAN_SPEAR_NAME',									'LOC_UNIT_INDIAN_SPEAR_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',			'LOC_BUILDING_WIGWAM_NAME',							'LOC_BUILDING_WIGWAM_DESCRIPTION');
+--INSERT INTO Traits				
+--		(TraitType,													Name,													Description)
+--VALUES	('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',						'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_NAME',					'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_DESCRIPTION'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_UNIT_INDIAN_SPEAR',					'LOC_UNIT_INDIAN_SPEAR_NAME',									'LOC_UNIT_INDIAN_SPEAR_DESCRIPTION'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',			'LOC_BUILDING_WIGWAM_NAME',							'LOC_BUILDING_WIGWAM_DESCRIPTION');
 		
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
-INSERT INTO TraitModifiers			
-		(TraitType,											ModifierId)
-VALUES
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_PATHFINDER_MOVE'),
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_CULTURE'),
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_FAITH'),
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_CULTURE2'),
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_SCIENCE'),
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_APPEAL'),
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_INDIAN_PARK'),
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_MOVE_WOODS'),
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_MOVE_JUNGLE'),
-		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_MOVE_HILLS');
+--INSERT INTO TraitModifiers			
+--		(TraitType,											ModifierId)
+--VALUES
+--		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_PATHFINDER_MOVE'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_CULTURE'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_FAITH'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_CULTURE2'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_SCIENCE'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_APPEAL'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_INDIAN_PARK'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_MOVE_WOODS'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_MOVE_JUNGLE'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_MOVE_HILLS');
 																					
 
 	--------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
-INSERT INTO Modifiers	
-		(ModifierId,												ModifierType,					SubjectRequirementSetId)
-VALUES	('JOEL_TRAIT_FOREST_CULTURE',		'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'FOREST_IS_NOT_IMPROVED_TECH_REQUIRMENT'),
-		('JOEL_TRAIT_FOREST_CULTURE2',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'FOREST_IS_NOT_IMPROVED_TECH2_REQUIRMENT'),
-		('JOEL_TRAIT_INDIAN_PARK',			'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE',	'CITY_HAS_NATIONAL_PARK_REQUREMENTS'),
-		('JOEL_TRAIT_FOREST_FAITH',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'PLOT_HAS_FOREST_NO_IMPROVEMENT_REQUIREMENTS'),
-		('JOEL_TRAIT_FOREST_SCIENCE',	'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'FOREST_IS_NOT_IMPROVED_TECH2_REQUIRMENT');
+--INSERT INTO Modifiers	
+--		(ModifierId,												ModifierType,					SubjectRequirementSetId)
+--VALUES	('JOEL_TRAIT_FOREST_CULTURE',		'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'FOREST_IS_NOT_IMPROVED_TECH_REQUIRMENT'),
+--		('JOEL_TRAIT_FOREST_CULTURE2',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'FOREST_IS_NOT_IMPROVED_TECH2_REQUIRMENT'),
+--		('JOEL_TRAIT_INDIAN_PARK',			'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE',	'CITY_HAS_NATIONAL_PARK_REQUREMENTS'),
+--		('JOEL_TRAIT_FOREST_FAITH',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'PLOT_HAS_FOREST_NO_IMPROVEMENT_REQUIREMENTS'),
+--		('JOEL_TRAIT_FOREST_SCIENCE',	'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'FOREST_IS_NOT_IMPROVED_TECH2_REQUIRMENT');
 		
 					
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 --------------------------------------------------------------------------------------------------------------------------
-INSERT INTO ModifierArguments
-		(ModifierId,												Name,						Value)
-VALUES	
-		('JOEL_TRAIT_INDIAN_PARK',							'Amount',							'10'),
-		('JOEL_TRAIT_INDIAN_PARK',							'YieldType',			'YIELD_GOLD'),
-		('JOEL_TRAIT_FOREST_CULTURE',							'Amount',							'1'),
-		('JOEL_TRAIT_FOREST_CULTURE',							'YieldType',			'YIELD_CULTURE'),
-		('JOEL_TRAIT_FOREST_CULTURE2',							'Amount',							'1'),
-		('JOEL_TRAIT_FOREST_CULTURE2',							'YieldType',			'YIELD_CULTURE'),
-		('JOEL_TRAIT_FOREST_APPEAL',						'FeatureType',			'FEATURE_FOREST'),
-		('JOEL_TRAIT_FOREST_APPEAL',						'Amount',							'1'),
-		('JOEL_TRAIT_FOREST_FAITH',							'Amount',							'1'),
-		('JOEL_TRAIT_FOREST_FAITH',							'YieldType',			'YIELD_FAITH'),
-		('JOEL_TRAIT_FOREST_SCIENCE',							'Amount',							'1'),
-		('JOEL_TRAIT_FOREST_SCIENCE',							'YieldType',			'YIELD_SCIENCE'),
-		('JOEL_TRAIT_MOVE_WOODS',								'ModifierId',			'JOEL_TRAIT_MOVE_WOODS_ATTACH'),
-		('JOEL_TRAIT_MOVE_WOODS_ATTACH',						'Ignore',						'true'),
-		('JOEL_TRAIT_MOVE_WOODS_ATTACH',						'Type',						'FOREST'),
-		('JOEL_TRAIT_MOVE_JUNGLE',								'ModifierId',			'JOEL_TRAIT_MOVE_JUNGLE_ATTACH'),
-		('JOEL_TRAIT_MOVE_JUNGLE_ATTACH',						'Ignore',						'true'),
-		('JOEL_TRAIT_MOVE_JUNGLE_ATTACH',						'Type',						'JUNGLE'),
-		('JOEL_TRAIT_MOVE_HILLS',								'ModifierId',			'JOEL_TRAIT_MOVE_HILLS_ATTACH'),
-		('JOEL_TRAIT_MOVE_HILLS_ATTACH',						'Ignore',						'true'),
-		('JOEL_TRAIT_MOVE_HILLS_ATTACH',						'Type',						'HILLS');
+--INSERT INTO ModifierArguments
+--		(ModifierId,												Name,						Value)
+--VALUES	
+--		('JOEL_TRAIT_INDIAN_PARK',							'Amount',							'10'),
+--		('JOEL_TRAIT_INDIAN_PARK',							'YieldType',			'YIELD_GOLD'),
+--		('JOEL_TRAIT_FOREST_CULTURE',							'Amount',							'1'),
+--		('JOEL_TRAIT_FOREST_CULTURE',							'YieldType',			'YIELD_CULTURE'),
+--		('JOEL_TRAIT_FOREST_CULTURE2',							'Amount',							'1'),
+--		('JOEL_TRAIT_FOREST_CULTURE2',							'YieldType',			'YIELD_CULTURE'),
+--		('JOEL_TRAIT_FOREST_APPEAL',						'FeatureType',			'FEATURE_FOREST'),
+--		('JOEL_TRAIT_FOREST_APPEAL',						'Amount',							'1'),
+--		('JOEL_TRAIT_FOREST_FAITH',							'Amount',							'1'),
+--		('JOEL_TRAIT_FOREST_FAITH',							'YieldType',			'YIELD_FAITH'),
+--		('JOEL_TRAIT_FOREST_SCIENCE',							'Amount',							'1'),
+--		('JOEL_TRAIT_FOREST_SCIENCE',							'YieldType',			'YIELD_SCIENCE'),
+--		('JOEL_TRAIT_MOVE_WOODS',								'ModifierId',			'JOEL_TRAIT_MOVE_WOODS_ATTACH'),
+--		('JOEL_TRAIT_MOVE_WOODS_ATTACH',						'Ignore',						'true'),
+--		('JOEL_TRAIT_MOVE_WOODS_ATTACH',						'Type',						'FOREST'),
+--		('JOEL_TRAIT_MOVE_JUNGLE',								'ModifierId',			'JOEL_TRAIT_MOVE_JUNGLE_ATTACH'),
+--		('JOEL_TRAIT_MOVE_JUNGLE_ATTACH',						'Ignore',						'true'),
+--		('JOEL_TRAIT_MOVE_JUNGLE_ATTACH',						'Type',						'JUNGLE'),
+--		('JOEL_TRAIT_MOVE_HILLS',								'ModifierId',			'JOEL_TRAIT_MOVE_HILLS_ATTACH'),
+--		('JOEL_TRAIT_MOVE_HILLS_ATTACH',						'Ignore',						'true'),
+--		('JOEL_TRAIT_MOVE_HILLS_ATTACH',						'Type',						'HILLS');
 	
 		
 
@@ -463,9 +463,9 @@ VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'TRAIT_LEADER_HEATH_COFFEE');
 INSERT INTO CivilizationTraits	
 		(TraitType,															CivilizationType)
 VALUES	
-		('TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES',									'CIVILIZATION_JOEL_CIV_SHOSHONE'),
-		('TRAIT_CIVILIZATION_SHOSHONE_UNIT_INDIAN_SPEAR',								'CIVILIZATION_JOEL_CIV_SHOSHONE'),
-		('TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',						'CIVILIZATION_JOEL_CIV_SHOSHONE');
+		('TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES',									'CIVILIZATION_JOEL_CIV_SHOSHONE');
+--		('TRAIT_CIVILIZATION_SHOSHONE_UNIT_INDIAN_SPEAR',								'CIVILIZATION_JOEL_CIV_SHOSHONE'),
+--		('TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',						'CIVILIZATION_JOEL_CIV_SHOSHONE');
 
 
 
