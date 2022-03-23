@@ -266,7 +266,7 @@ VALUES	('TRAIT_LEADER_HEATH_COFFEE',						'HEATH_COFFEE_MODIFIER_ID');
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers	
 		(ModifierId,												ModifierType,				RunOnce,        Permanent,           SubjectRequirementSetId)										
-VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY',	       1,		1,		Null);
+VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT',	       0,		0,		Null);
 	
 	
 		
