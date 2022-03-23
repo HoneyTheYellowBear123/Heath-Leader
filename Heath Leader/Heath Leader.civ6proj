@@ -48,9 +48,6 @@
     <Content Include="Core\Colour.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\HeathMineBonus.sql">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Core\Joshs_Template_Buildings.xml">
       <SubType>Content</SubType>
     </Content>
