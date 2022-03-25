@@ -26,7 +26,7 @@
 			<Text>Josh Was Here 2k17</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_JOEL_CIV_SHOSHONE_CAPITAL" Language="en_US">
-			<Text>Moson Kahni</Text>
+			<Text>Latte</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_JOEL_CIV_SHOSHONE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Josh Was Here 2k17</Text>
@@ -47,16 +47,16 @@
 		
 		<!--Cities-->
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_1" Language="en_US">
-			<Text>Moson Kahni</Text>
+			<Text>Latte</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_2" Language="en_US">
-			<Text>Te-Moak</Text>
+			<Text>Toffee</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_3" Language="en_US">
-			<Text>Agaidika</Text>
+			<Text>Thursday</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_4" Language="en_US">
-			<Text>Goshute</Text>
+			<Text>Synth</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_5" Language="en_US">
 			<Text>Pohokwi</Text>
