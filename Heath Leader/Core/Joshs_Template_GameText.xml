@@ -454,7 +454,7 @@
 			<Text>Caffine Enthusiast</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HEATH_COFFEE_DESCRIPTION" Language="en_US">
-			<Text>Empire is granted 2 free [Icon_RESOURCE_COFFEE] Coffee luxury resources. </Text>
+			<Text>Empire is granted 1 free [Icon_RESOURCE_COFFEE] Coffee and [Icon_RESOURCE_TEA] Tea luxury resources. </Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES_NAME" Language="en_US">

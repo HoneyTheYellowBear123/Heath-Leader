@@ -258,7 +258,8 @@ VALUES	('TRAIT_LEADER_HEATH_COFFEE',						'LOC_TRAIT_LEADER_HEATH_COFFEE_NAME',	
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,													ModifierId)
-VALUES	('TRAIT_LEADER_HEATH_COFFEE',						'HEATH_COFFEE_MODIFIER_ID');
+VALUES	('TRAIT_LEADER_HEATH_COFFEE',						'HEATH_COFFEE_MODIFIER_ID'),
+		('TRAIT_LEADER_HEATH_COFFEE',						'HEATH_TEA_MODIFIER_ID');
 		
 		
 --------------------------------------------------------------------------------------------------------------------------
@@ -266,7 +267,8 @@ VALUES	('TRAIT_LEADER_HEATH_COFFEE',						'HEATH_COFFEE_MODIFIER_ID');
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers	
 		(ModifierId,												ModifierType,				RunOnce,        Permanent,           SubjectRequirementSetId)										
-VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT',	       0,		0,		Null);
+VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT',	       0,		0,		Null),
+		('HEATH_TEA_MODIFIER_ID',			'MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT',	       0,		0,		Null);
 	
 	
 		
@@ -276,7 +278,9 @@ VALUES	('HEATH_COFFEE_MODIFIER_ID',			'MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPO
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,							Value)
 VALUES	('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType',                          'RESOURCE_COFFEE'),
-		('HEATH_COFFEE_MODIFIER_ID',						'Amount',								'2');
+		('HEATH_COFFEE_MODIFIER_ID',						'Amount',								'1'),
+		('HEATH_TEA_MODIFIER_ID',                        'ResourceType',                          'RESOURCE_TEA'),
+		('HEATH_TEA_MODIFIER_ID',						'Amount',								'1');
 
 
 
