@@ -47,7 +47,7 @@
 		
 		<!--Cities-->
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_1" Language="en_US">
-			<Text>Latte</Text>
+			<Text>Espresso</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_2" Language="en_US">
 			<Text>Toffee</Text>
@@ -68,7 +68,7 @@
 			<Text>Bean</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_8" Language="en_US">
-			<Text>Espresso</Text>
+			<Text>Latte</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_9" Language="en_US">
 			<Text>Flat White</Text>
@@ -101,40 +101,40 @@
 			<Text>Aluminum City</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_19" Language="en_US">
-			<Text>Tetadeka</Text>
+			<Text>Americano</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_20" Language="en_US">
-			<Text>Deheyaeka</Text>
+			<Text>Mocha</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_21" Language="en_US">
-			<Text>Pengwideka</Text>
+			<Text>Kingbu</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_22" Language="en_US">
-			<Text>Winnemucca</Text>
+			<Text>Frappe</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_23" Language="en_US">
-			<Text>Skull Valley</Text>
+			<Text>Creamer</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_24" Language="en_US">
-			<Text>Big Pine</Text>
+			<Text>Pourover</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_25" Language="en_US">
-			<Text>Duck Valley</Text>
+			<Text>Candybar</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_26" Language="en_US">
-			<Text>Madras</Text>
+			<Text>Macchiato</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_27" Language="en_US">
-			<Text>Calcutta</Text>
+			<Text>Cortado</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_28" Language="en_US">
-			<Text>Bombay</Text>
+			<Text>Ristretto</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_29" Language="en_US">
-			<Text>Baroda</Text>
+			<Text>Affogato</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JOEL_CIV_SHOSHONE_30" Language="en_US">
-			<Text>Mumbai</Text>
+			<Text>Galao</Text>
 		</Row>
 		
 		
