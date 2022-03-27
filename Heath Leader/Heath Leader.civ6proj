@@ -84,6 +84,9 @@
     <Content Include="Textures\ART_LEADER_SACAGAWEA_SHOSHONE.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_128.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_ARROW_UNIT_45.dds">
       <SubType>Content</SubType>
     </Content>
@@ -118,6 +121,45 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_SHOSHONE_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_512.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_512.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DIST_SOLSTICE_80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.dds">
