@@ -392,11 +392,17 @@ VALUES	('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType',      
 --=====================================================================================================
 INSERT INTO Types
        (Type,                                 Kind)
-VALUES ('DISTRICT_SOLSTICE_CENTER',           'KIND_DISTRICT');
+VALUES ('DISTRICT_SOLSTICE_CENTER',           'KIND_DISTRICT'),
+	   ('TRAIT_CIVILIZATION_DISTRICT_SOLSTICE_CENTER', 'KIND_TRAIT');
+
+INSERT INTO Traits
+		(TraitType,													Name,													Description)
+VALUES   ('TRAIT_CIVILIZATION_DISTRICT_SOLSTICE_CENTER',            'LOC_DISTRICT_SOLSTICE_CENTER_NAME',                   'LOC_DISTRICT_SOLSTICE_CENTER_DESCRIPTION');  
+
 
 INSERT INTO Districts	
 	    (DistrictType,			     Name,				                	Description,				             PrereqTech,	 	  PlunderType,	   PlunderAmount,       AdvisorType,		 Cost,   CostProgressionModel,					     CostProgressionParam1,   Maintenance, RequiresPlacement, RequiresPopulation, AllowsHolyCity, Aqueduct, NoAdjacentCity, InternalOnly, ZOC,   CaptureRemovesBuildings, CaptureRemovesCityDefenses, MilitaryDomain,        Appeal,   CityStrengthModifier,      TraitType)
-VALUES ( 'DISTRICT_SOLSTICE_CENTER', 'LOC_DISTRICT_SOLSTICE_CENTER_NAME', 'LOC_DISTRICT_SOLSTICE_CENTER_DESCRIPTION', 'TECH_ASTROLOGY', 'PLUNDER_FAITH',   '25',	         	'ADVISOR_RELIGIOUS', '27',   'COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH',   '40',					  '1',           'true',            'true',             'true',         'false',  'false',        'false',     'false', 'false',                'false',                     'NO_DOMAIN',   '1',         '2' ,                       'TRAIT_CIVILIZATION_DISTRICT_SOLSTICE_CENTER');
+VALUES ( 'DISTRICT_SOLSTICE_CENTER', 'LOC_DISTRICT_SOLSTICE_CENTER_NAME', 'LOC_DISTRICT_SOLSTICE_CENTER_DESCRIPTION', 'TECH_ASTROLOGY', 'PLUNDER_FAITH',   '25',	         	'ADVISOR_RELIGIOUS', '27',   'COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH',   '40',					  '1',           '1',            '1',             '1',         '0',  '0',        '0',     '0', '0',                '0',                     'NO_DOMAIN',   '1',         '2' ,                       'TRAIT_CIVILIZATION_DISTRICT_SOLSTICE_CENTER');
 
 INSERT INTO DistrictReplaces
 		(CivUniqueDistrictType,                ReplacesDistrictType)
