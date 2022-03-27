@@ -41,6 +41,7 @@
 			<ConsumerName text="Landmarks"/>
 			<ArtDefDependencyPaths>
 				<Element text="Districts.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="CityBuildings"/>
@@ -504,10 +505,7 @@
 		</Element>
 		<Element>
 			<LibraryName text="StrategicView_Sprite"/>
-			<PackageDependencies>
-				<Element text="StrategicView_Districts.blp"/>
-				<Element text="strategicview/strategicview_districts.blp"/>
-			</PackageDependencies>
+			<PackageDependencies/>
 		</Element>
 		<Element>
 			<LibraryName text="StrategicView_TerrainBlend"/>

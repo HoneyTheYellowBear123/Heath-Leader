@@ -28,7 +28,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="DISTRICT_SUK_DZONG"/>
+										<m_ElementName text="DISTRICT_SOLSTICE_CENTER"/>
 										<m_RootCollectionName text="Districts"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>

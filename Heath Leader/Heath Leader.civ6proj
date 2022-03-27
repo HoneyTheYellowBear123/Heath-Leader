@@ -39,6 +39,9 @@
     <Content Include="ArtDefs\FallbackLeaders.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\Leaders.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -67,6 +70,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Starting_Location.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Heath Leader.Art.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Indean_tribe.dep">
