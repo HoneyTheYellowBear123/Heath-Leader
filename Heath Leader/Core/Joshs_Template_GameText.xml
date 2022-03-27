@@ -463,7 +463,13 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HEATH_MATERIAL_SCIENCES_MINES_DESCRIPTION" Language="en_US">
 			<Text>Mines over Luxury Resources grant a bonus 2 [Icon_Gold] Gold, Mines over Bonus Resources grant a bonus 1 [Icon_Gold] Gold and 1 [Icon_Production], and Mines over Strategic Resources grant a bonus 2 [Icon_Production] Production and 1 [Icon_Science] Science. </Text>
 		</Row>
-		
+
+		<Row Tag="LOC_DISTRICT_SOLSTICE_CENTER_NAME" Language="en_US">
+			<Text>Solstice Center</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SOLSTICE_CENTER_DESCRIPTION" Language="en_US">
+			<Text>District Unique to Heath that replaces holy site, recieves an additional [Icon_Culture] Culture adjacancy bonus, grants one additional [Icon_GreatProphet] Great Prophet point, and grants a small bonus towards all other great people. </Text>
+		</Row>
 		
 		
 		<Row Tag="LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_NAME" Language="en_US">
