@@ -394,13 +394,21 @@ INSERT INTO Types
        (Type,                                 Kind)
 VALUES ('DISTRICT_SOLSTICE_CENTER',           'KIND_DISTRICT');
 
+INSERT INTO Districts	
+	    (DistrictType,			     Name,				                	Description,				             PrereqTech,	 	  PlunderType,	   PlunderAmount,       AdvisorType,		 Cost,   CostProgressionModel,					     CostProgressionParam1,   Maintenance, RequiresPlacement, RequiresPopulation, AllowsHolyCity, Aqueduct, NoAdjacentCity, InternalOnly, ZOC,   CaptureRemovesBuildings, CaptureRemovesCityDefenses, MilitaryDomain,        Appeal,   CityStrengthModifier,      TraitType)
+VALUES ( 'DISTRICT_SOLSTICE_CENTER', 'LOC_DISTRICT_SOLSTICE_CENTER_NAME', 'LOC_DISTRICT_SOLSTICE_CENTER_DESCRIPTION', 'TECH_ASTROLOGY', 'PLUNDER_FAITH',   '25',	         	'ADVISOR_RELIGIOUS', '27',   'COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH',   '40',					  '1',           'true',            'true',             'true',         'false',  'false',        'false',     'false', 'false',                'false',                     'NO_DOMAIN',   '1',         '2' ,                       'TRAIT_CIVILIZATION_DISTRICT_SOLSTICE_CENTER');
+
 INSERT INTO DistrictReplaces
 		(CivUniqueDistrictType,                ReplacesDistrictType)
 VALUES  ('DISTRICT_SOLSTICE_CENTER',           'DISTRICT_HOLY_SITE');
 
-INSERT INTO Districts	
-	    (DistrictType,			     Name,				                	Description,				             PrereqTech,	 	  PlunderType,	   PlunderAmount,    AdvisorType,		 Cost, CostProgressionModel,					     CostProgressionParam1,   Maintenance, RequiresPlacement, RequiresPopulation, AllowsHolyCity, Aqueduct, NoAdjacentCity, InternalOnly, ZOC,   CaptureRemovesBuildings, CaptureRemovesCityDefenses, MilitaryDomain, Appeal,   CityStrengthModifier,      TraitType)
-VALUES ( 'DISTRICT_SOLSTICE_CENTER', 'LOC_DISTRICT_SOLSTICE_CENTER_NAME', 'LOC_DISTRICT_SOLSTICE_CENTER_DESCRIPTION', 'TECH_ASTROLOGY', 'PLUNDER_FAITH', 25,	         	'ADVISOR_RELIGIOUS', 27,   'COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH',   40,					  1,           'true',            'true',             'true',         'false',  'false',        'false',     'false', 'false',                'false',                     'NO_DOMAIN',   1,         2 ,                       'TRAIT_CIVILIZATION_DISTRICT_SOLSTICE_CENTER');
+INSERT INTO Adjacency_YieldChanges
+            (ID,					Description,                         YieldType,         YieldChange, TilesRequired, AdjacentTerrain)
+VALUES      ('Mountain_Culture1',   'LOC_DISTRICT_MOUNTAIN_CULTURE1',    'YIELD_CULTURE',    '1',           '1',             'TERRAIN_GRASS_MOUNTAIN'),
+			('Mountain_Culture2',   'LOC_DISTRICT_MOUNTAIN_CULTURE1',    'YIELD_CULTURE',    '1',           '1',             'TERRAIN_PLAINS_MOUNTAIN'),
+			('Mountain_Culture3',   'LOC_DISTRICT_MOUNTAIN_CULTURE1',    'YIELD_CULTURE',    '1',           '1',             'TERRAIN_DESERT_MOUNTAIN'),
+			('Mountain_Culture4',   'LOC_DISTRICT_MOUNTAIN_CULTURE1',    'YIELD_CULTURE',    '1',           '1',             'TERRAIN_TUNDRA_MOUNTAIN'),
+			('Mountain_Culture5',   'LOC_DISTRICT_MOUNTAIN_CULTURE1',    'YIELD_CULTURE',    '1',           '1',             'TERRAIN_SNOW_MOUNTAIN');
 
 INSERT INTO District_Adjacencies
 			(DistrictType,            YieldChangeId)
@@ -420,34 +428,27 @@ VALUES  ( 'DISTRICT_SOLSTICE_CENTER', 'Mountain_Faith1'),
 		( 'DISTRICT_SOLSTICE_CENTER', 'Mountain_Culture4'),
 		( 'DISTRICT_SOLSTICE_CENTER', 'Mountain_Culture5');
 
-INSERT INTO Adjacency_YieldChanges
-            (ID,					Description,                         YieldType,         YieldChange, TilesRequired, AdjacentTerrain)
-VALUES      ('Mountain_Culture1',   'LOC_DISTRICT_MOUNTAIN_CULTURE1',    'YIELD_CULTURE',    1,           1,             'TERRAIN_GRASS_MOUNTAIN'),
-			('Mountain_Culture2',   'LOC_DISTRICT_MOUNTAIN_CULTURE1',    'YIELD_CULTURE',    1,           1,             'TERRAIN_PLAINS_MOUNTAIN'),
-			('Mountain_Culture3',   'LOC_DISTRICT_MOUNTAIN_CULTURE1',    'YIELD_CULTURE',    1,           1,             'TERRAIN_DESERT_MOUNTAIN'),
-			('Mountain_Culture4',   'LOC_DISTRICT_MOUNTAIN_CULTURE1',    'YIELD_CULTURE',    1,           1,             'TERRAIN_TUNDRA_MOUNTAIN'),
-			('Mountain_Culture5',   'LOC_DISTRICT_MOUNTAIN_CULTURE1',    'YIELD_CULTURE',    1,           1,             'TERRAIN_SNOW_MOUNTAIN');
 
 INSERT INTO District_GreatPersonPoints
 			(DistrictType,                   GreatPersonClassType,              PointsPerTurn)
-VALUES		('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_PROPHET',      2),
-			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_GENERAL',      0.1),
-			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_ADMIRAL',      0.1),
-			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_SCIENTIST',      0.1),
-			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_MERCHANT',      0.1),
-			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_ENGINEER',      0.1),
-			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_WRITER',      0.1),
-			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_ARTIST',      0.1),
-			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_MUSICIAN',      0.2);
+VALUES		('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_PROPHET',      '2'),
+			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_GENERAL',      '0.1'),
+			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_ADMIRAL',      '0.1'),
+			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_SCIENTIST',      '0.1'),
+			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_MERCHANT',      '0.1'),
+			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_ENGINEER',      '0.1'),
+			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_WRITER',      '0.1'),
+			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_ARTIST',      '0.1'),
+			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_MUSICIAN',      '0.2');
 
 INSERT INTO District_TradeRouteYields
 			(DistrictType,				      YieldType,		YieldChangeAsOrigin,		YieldChangeAsDomesticDestination,		YieldChangeAsInternationalDestination)
-VALUES		('DISTRICT_SOLSTICE_CENTER',	'YIELD_FOOD',          0,                         1,                                      0),
-			('DISTRICT_SOLSTICE_CENTER',	'YIELD_FAITH',          0,                         0,                                      1);
+VALUES		('DISTRICT_SOLSTICE_CENTER',	'YIELD_FOOD',          '0',                         '1',                                      '0'),
+			('DISTRICT_SOLSTICE_CENTER',	'YIELD_FAITH',          '0',                         '0',                                      '1');
 
 INSERT INTO District_CitizenYieldChanges
 			(DistrictType,                              YieldType,                    YieldChange)
-VALUES      ('DISTRICT_SOLSTICE_CENTER',                'YIELD_FAITH',                2);
+VALUES      ('DISTRICT_SOLSTICE_CENTER',                'YIELD_FAITH',                '2');
 
 
 
