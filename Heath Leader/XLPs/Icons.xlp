@@ -92,8 +92,8 @@
 		</Element>
 		<!--new icon-->
 		<Element>
-			<m_EntryID text="ICON_DIST_SOLSTICE_256"/>
-			<m_ObjectName text="ICON_DIST_SOLSTICE_256"/>
+			<m_EntryID text="ICON_DIST_SOLSTICE_512"/>
+			<m_ObjectName text="ICON_DIST_SOLSTICE_512"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_DIST_SOLSTICE_256"/>
