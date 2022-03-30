@@ -372,9 +372,6 @@
     <Content Include="XLPs\Leader_LEADER_CUSTOM.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="XLPs\StrategicView.xlp">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="XLPs\UILeaders.xlp">
       <SubType>Content</SubType>
     </Content>

@@ -524,7 +524,10 @@
 		</Element>
 		<Element>
 			<libraryName text="StrategicView_Sprite"/>
-			<relativePackagePaths/>
+			<relativePackagePaths>
+				<Element text="StrategicView_Districts"/>
+				<Element text="strategicview/strategicview_districts.blp"/>
+			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="StrategicView_TerrainBlend"/>
