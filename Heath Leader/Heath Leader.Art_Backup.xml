@@ -6,17 +6,9 @@
 	</id>
 	<artConsumers>
 		<Element>
-			<ConsumerName text="Districts"/>
-			<ArtDefDependencyPaths>
-				<Element text="Districts.artdef"/>
-			</ArtDefDependencyPaths>
-			<LibraryDependencies/>
-			<LoadsLibraries>true</LoadsLibraries>
-		</Element>
-		<Element>
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
-				<Element text="Units.artdef" />
+				<Element text="Units.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -29,7 +21,6 @@
 			<consumerName text="Clutter"/>
 			<relativeArtDefPaths>
 				<Element text="Clutter.artdef"/>
-				<Element text="StrategicView.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Landmark"/>
@@ -39,7 +30,8 @@
 		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
-				<Element text="Districts.artdef"/>
+				<Element text="Civilizations.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -71,9 +63,9 @@
 		<Element>
 			<consumerName text="StrategicView_Properties"/>
 			<relativeArtDefPaths>
-				<Element text="Districts.artdef"/>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
@@ -90,7 +82,6 @@
 		<Element>
 			<consumerName text="StrategicView_Route"/>
 			<relativeArtDefPaths>
-				<Element text="Districts.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_Route"/>
@@ -101,7 +92,6 @@
 		<Element>
 			<consumerName text="StrategicView_TerrainType"/>
 			<relativeArtDefPaths>
-				<Element text="Districts.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
@@ -114,7 +104,6 @@
 		<Element>
 			<consumerName text="StrategicView_TerrainBlendCorners"/>
 			<relativeArtDefPaths>
-				<Element text="Districts.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlendCorners"/>
@@ -125,7 +114,6 @@
 		<Element>
 			<consumerName text="StrategicView_TerrainBlend"/>
 			<relativeArtDefPaths>
-				<Element text="Districts.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
@@ -136,7 +124,6 @@
 		<Element>
 			<consumerName text="Terrain"/>
 			<relativeArtDefPaths>
-				<Element text="Districts.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="TerrainAsset"/>
@@ -247,22 +234,24 @@
 			<consumerName text="Camera"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="Terrains"/>
 			<relativeArtDefPaths>
-				<Element text="Districts.artdef"/>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="Features"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
@@ -270,55 +259,70 @@
 			<relativeArtDefPaths>
 				<Element text="Civilizations.artdef"/>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="Cultures"/>
 			<relativeArtDefPaths>
+				<Element text="Civilizations.artdef"/>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="Resources"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="Improvements"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="Civilizations.artdef"/>
+				<Element text="Districts.artdef"/>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="Districts.artdef"/>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
-				
+				<Element text="Civilizations.artdef"/>
+				<Element text="Districts.artdef"/>
+				<Element text="Leaders.artdef"/>
+				<Element text="Units.artdef"/>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="LeaderLighting"/>
 			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderLighting"/>
@@ -329,6 +333,7 @@
 		<Element>
 			<consumerName text="Leaders"/>
 			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Leader"/>
@@ -351,27 +356,32 @@
 			<consumerName text="Lenses"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="IndirectGrid"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="AOSystem"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="GenericObject"/>
-			<relativeArtDefPaths/>
-			<libraryDependencies/>
+			<relativeArtDefPaths>
+			</relativeArtDefPaths>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
@@ -396,7 +406,8 @@
 			<consumerName text="UIPreview"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
@@ -412,14 +423,16 @@
 			<consumerName text="Minimap"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="UnitSimulation"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
@@ -433,8 +446,6 @@
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
 	</artConsumers>
-
-	
 	<gameLibraries>
 		<Element>
 			<libraryName text="CityBuildings"/>
@@ -525,8 +536,6 @@
 		<Element>
 			<libraryName text="StrategicView_Sprite"/>
 			<relativePackagePaths>
-				<Element text="StrategicView_Districts"/>
-				<Element text="strategicview/strategicview_districts.blp"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -572,10 +581,10 @@
 		<Element>
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
-				<Element text="UILeaders"/>
+				<Element text="Icons"/>
 				<Element text="LeaderBackgrounds"/>
 				<Element text="LEADER_JOEL_SACAGAWEA_SHOSHONE"/>
-				<Element text="Icons"/>
+				<Element text="UILeaders"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -606,10 +615,8 @@
 	</gameLibraries>
 	<requiredGameArtIDs>
 		<Element>
-			<name text="Civ6"/>
-			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
+			<name text="Shared"/>
+			<id text="725760e3-7fc0-4be7-abf1-17bc756d5436"/>
 		</Element>
 	</requiredGameArtIDs>
 </AssetObjects::GameArtSpecification>
-
- 

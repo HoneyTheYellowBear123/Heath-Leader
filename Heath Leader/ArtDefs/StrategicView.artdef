@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <AssetObjects..ArtDefSet>
 	<m_Version>
 		<major>4</major>
@@ -198,7 +198,8 @@
 				<m_Name text="SolsticeCenter_UnderConstruction"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
-			<Element>
+		</Element>
+		<Element>
 			<m_CollectionName text="Districts"/>
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 			<Element>
