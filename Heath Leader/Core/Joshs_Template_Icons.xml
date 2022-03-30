@@ -55,12 +55,12 @@
 		
 		<!--District Icons-->
 
-		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_32.dds"/>
-		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_38.dds"/>
-		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_50.dds"/>
-		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_80.dds"/>
-		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="128"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_128.dds"/>
-		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_256.dds"/>
+		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_32.png"/>
+		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_38.png"/>
+		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_50.png"/>
+		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_80.png"/>
+		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="128"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_128.png"/>
+		<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_256.png"/>
 		<!--<Row Name="ICON_ATLAS_DISTRICT_SOLSTICE" IconSize="512" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_SOLSTICE_CENTER_512.dds"/>-->
 
 

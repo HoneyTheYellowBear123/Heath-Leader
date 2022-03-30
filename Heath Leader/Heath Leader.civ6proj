@@ -84,6 +84,9 @@
     <Content Include="Textures\ART_LEADER_SACAGAWEA_SHOSHONE.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_128.dds">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_128.tex">
       <SubType>Content</SubType>
     </Content>
@@ -123,9 +126,6 @@
     <Content Include="Textures\ICON_CIV_SHOSHONE_32.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_128.dds">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_256.dds">
       <SubType>Content</SubType>
     </Content>
@@ -144,10 +144,10 @@
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_38.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_50_CENTER.dds">
+    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_50_CENTER.tex">
+    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_50.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_512.dds">
