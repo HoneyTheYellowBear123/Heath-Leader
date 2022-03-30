@@ -92,28 +92,28 @@
 		</Element>
 		<!--new icon-->
 		<Element>
-			<m_EntryID text="ICON_DIST_SOLSTICE_256"/>
-			<m_ObjectName text="ICON_DIST_SOLSTICE_256"/>
+			<m_EntryID text="ICON_DISTRICT_SOLSTICE_CENTER_256"/>
+			<m_ObjectName text="ICON_DISTRICT_SOLSTICE_CENTER_256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_DIST_SOLSTICE_128"/>
-			<m_ObjectName text="ICON_DIST_SOLSTICE_128"/>
+			<m_EntryID text="ICON_DISTRICT_SOLSTICE_CENTER_128"/>
+			<m_ObjectName text="ICON_DISTRICT_SOLSTICE_CENTER_128"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_DIST_SOLSTICE_80"/>
-			<m_ObjectName text="ICON_DIST_SOLSTICE_80"/>
+			<m_EntryID text="ICON_DISTRICT_SOLSTICE_CENTER_80"/>
+			<m_ObjectName text="ICON_DISTRICT_SOLSTICE_CENTER_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_DIST_SOLSTICE_50"/>
-			<m_ObjectName text="ICON_DIST_SOLSTICE_50"/>
+			<m_EntryID text="ICON_DISTRICT_SOLSTICE_CENTER_50"/>
+			<m_ObjectName text="ICON_DISTRICT_SOLSTICE_CENTER_50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_DIST_SOLSTICE_38"/>
-			<m_ObjectName text="ICON_DIST_SOLSTICET_38"/>
+			<m_EntryID text="ICON_DISTRICT_SOLSTICE_CENTER_38"/>
+			<m_ObjectName text="ICON_DISTRICT_SOLSTICE_CENTERT_38"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_DIST_SOLSTICE_32"/>
-			<m_ObjectName text="ICON_DIST_SOLSTICE_32"/>
+			<m_EntryID text="ICON_DISTRICT_SOLSTICE_CENTER_32"/>
+			<m_ObjectName text="ICON_DISTRICT_SOLSTICE_CENTER_32"/>
 		</Element>
 		<!--unit icon-->
 		<Element>
