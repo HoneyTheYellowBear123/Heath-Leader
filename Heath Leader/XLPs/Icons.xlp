@@ -100,11 +100,11 @@
 			<m_ObjectName text="ICON_DIST_SOLSTICE_256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_ADIST_SOLSTICE_128"/>
+			<m_EntryID text="ICON_DIST_SOLSTICE_128"/>
 			<m_ObjectName text="ICON_DIST_SOLSTICE_128"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_ADIST_SOLSTICE_80"/>
+			<m_EntryID text="ICON_DIST_SOLSTICE_80"/>
 			<m_ObjectName text="ICON_DIST_SOLSTICE_80"/>
 		</Element>
 		<Element>
@@ -113,7 +113,7 @@
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_DIST_SOLSTICE_38"/>
-			<m_ObjectName text="ICON_ADIST_SOLSTICET_38"/>
+			<m_ObjectName text="ICON_DIST_SOLSTICET_38"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_DIST_SOLSTICE_32"/>
