@@ -3629,7 +3629,7 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Modern_Base_04"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="tilebases_fallback.xlp"/>
+										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
@@ -3873,7 +3873,7 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Classical_Base_04"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="tilebases_fallback.xlp"/>
+										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
@@ -3934,7 +3934,7 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="tilebases_fallback.xlp"/>
+										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
@@ -3995,7 +3995,7 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Modern_Base_04"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="tilebases_fallback.xlp"/>
+										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
@@ -4235,8 +4235,8 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Shrine"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
@@ -4292,8 +4292,8 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Temple"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
@@ -4349,8 +4349,8 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Cathedral"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
@@ -4406,8 +4406,8 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_MeetingHouse"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
@@ -4463,8 +4463,8 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Wat"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
@@ -4520,8 +4520,8 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Synagogue"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
@@ -4577,8 +4577,8 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Pagoda"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
@@ -4634,8 +4634,8 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Mosque"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
@@ -4691,8 +4691,8 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_Gurdwara"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
@@ -4748,8 +4748,8 @@
 									<Element class="AssetObjects..BLPEntryValue">
 										<m_EntryName text="DIS_REL_StaveChurch"/>
 										<m_XLPClass text="TileBase"/>
-										<m_XLPPath text="hero_buildings.xlp"/>
-										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>

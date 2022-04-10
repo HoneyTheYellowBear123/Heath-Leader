@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <AssetObjects..XLP>
 	<m_Version>
 		<major>4</major>
@@ -7,7 +7,7 @@
 		<revision>805</revision>
 	</m_Version>
 	<m_ClassName text="StrategicView_Sprite"/>
-	<m_PackageName text="UI/StrategicView"/>
+	<m_PackageName text="strategicview/strategicview_districts"/>
 	<m_Entries>
 		<Element>
 			<m_EntryID text="Districts_HolySite_Pillaged_Visible"/>

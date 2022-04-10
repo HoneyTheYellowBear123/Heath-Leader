@@ -26,6 +26,7 @@
   <ItemGroup>
     <Folder Include="ArtDefs" />
     <Folder Include="Core" />
+    <Folder Include="Assets" />
     <Folder Include="XLPs" />
     <Folder Include="Textures" />
   </ItemGroup>
@@ -49,6 +50,90 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Ancient_Base_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Ancient_Base_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Cathedral.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Classical_Base_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Classical_Base_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Classical_Base_03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Classical_Base_04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Construction_Base_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Dar-E-Mehr.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Dar_E_Mehr_Pillar_CON.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Gurdwara.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Industrial_Base_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Industrial_Base_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Industrial_Base_03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Industrial_Base_04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Modern_Base_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Modern_Base_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Modern_Base_03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Modern_Base_04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Mosque.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Pagoda.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Shrine.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_StaveChurch.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Stupa.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Stupa_Rope.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Synagogue.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Temple.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Wat.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Colour.sql">
@@ -376,6 +461,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\StrategicView_Districts.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\tilebases.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\UILeaders.xlp">

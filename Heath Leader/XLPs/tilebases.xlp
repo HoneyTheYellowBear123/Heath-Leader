@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>423</build>
+		<revision>65</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_REL_Ancient_Base_01"/>
+			<m_ObjectName text="DIS_REL_Ancient_Base_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Ancient_Base_02"/>
+			<m_ObjectName text="DIS_REL_Ancient_Base_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Classical_Base_01"/>
+			<m_ObjectName text="DIS_REL_Classical_Base_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Classical_Base_03"/>
+			<m_ObjectName text="DIS_REL_Classical_Base_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Classical_Base_04"/>
+			<m_ObjectName text="DIS_REL_Classical_Base_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Classical_Base_02"/>
+			<m_ObjectName text="DIS_REL_Classical_Base_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Industrial_Base_01"/>
+			<m_ObjectName text="DIS_REL_Industrial_Base_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Industrial_Base_02"/>
+			<m_ObjectName text="DIS_REL_Industrial_Base_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Industrial_Base_03"/>
+			<m_ObjectName text="DIS_REL_Industrial_Base_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Industrial_Base_04"/>
+			<m_ObjectName text="DIS_REL_Industrial_Base_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Modern_Base_01"/>
+			<m_ObjectName text="DIS_REL_Modern_Base_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Modern_Base_02"/>
+			<m_ObjectName text="DIS_REL_Modern_Base_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Modern_Base_03"/>
+			<m_ObjectName text="DIS_REL_Modern_Base_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Modern_Base_04"/>
+			<m_ObjectName text="DIS_REL_Modern_Base_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Dar-E-Mehr"/>
+			<m_ObjectName text="DIS_REL_Dar-E-Mehr"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Stupa"/>
+			<m_ObjectName text="DIS_REL_Stupa"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Shrine"/>
+			<m_ObjectName text="DIS_REL_Shrine"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Cathedral"/>
+			<m_ObjectName text="DIS_REL_Cathedral"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_MeetingHouse"/>
+			<m_ObjectName text="DIS_REL_MeetingHouse"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Temple"/>
+			<m_ObjectName text="DIS_REL_Temple"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Gurdwara"/>
+			<m_ObjectName text="DIS_REL_Gurdwara"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Pagoda"/>
+			<m_ObjectName text="DIS_REL_Pagoda"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_StaveChurch"/>
+			<m_ObjectName text="DIS_REL_StaveChurch"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Synagogue"/>
+			<m_ObjectName text="DIS_REL_Synagogue"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Wat"/>
+			<m_ObjectName text="DIS_REL_Wat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_Mosque"/>
+			<m_ObjectName text="DIS_REL_Mosque"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
