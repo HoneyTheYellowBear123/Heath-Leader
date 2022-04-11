@@ -172,6 +172,42 @@
     <Content Include="Textures\ART_LEADER_SACAGAWEA_SHOSHONE.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_Pillaged_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_Pillaged_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_UnderConstruction_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_UnderConstruction_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_Pillaged_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_Pillaged_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_UnderConstruction_Revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_UnderConstruction_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Districts_SolsticeCenter_Visible.dds">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_128.dds">
       <SubType>Content</SubType>
     </Content>

@@ -10,28 +10,28 @@
 	<m_PackageName text="strategicview/strategicview_districts"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="Districts_HolySite_Pillaged_Visible"/>
-			<m_ObjectName text="Districts_HolySite_Pillaged_Visible"/>
+			<m_EntryID text="Districts_SolsticeCenter_Pillaged_Visible"/>
+			<m_ObjectName text="Districts_SolsticeCenter_Pillaged_Visible"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Districts_HolySite_Pillaged_Revealed"/>
-			<m_ObjectName text="Districts_HolySite_Pillaged_Revealed"/>
+			<m_EntryID text="Districts_SolsticeCenter_Pillaged_Revealed"/>
+			<m_ObjectName text="Districts_SolsticeCenter_Pillaged_Revealed"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Districts_HolySite_Visible"/>
-			<m_ObjectName text="Districts_HolySite_Visible"/>
+			<m_EntryID text="Districts_SolsticeCenter_Visible"/>
+			<m_ObjectName text="Districts_SolsticeCenter_Visible"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Districts_HolySite_Revealed"/>
-			<m_ObjectName text="Districts_HolySite_Revealed"/>
+			<m_EntryID text="Districts_SolsticeCenter_Revealed"/>
+			<m_ObjectName text="Districts_SolsticeCenter_Revealed"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Districts_HolySite_UnderConstruction_Visible"/>
-			<m_ObjectName text="Districts_HolySite_UnderConstruction_Visible"/>
+			<m_EntryID text="Districts_SolsticeCenter_UnderConstruction_Visible"/>
+			<m_ObjectName text="Districts_SolsticeCenter_UnderConstruction_Visible"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Districts_HolySite_UnderConstruction_Revealed"/>
-			<m_ObjectName text="Districts_HolySite_UnderConstruction_Revealed"/>
+			<m_EntryID text="Districts_SolsticeCenter_UnderConstruction_Revealed"/>
+			<m_ObjectName text="Districts_SolsticeCenter_UnderConstruction_Revealed"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
