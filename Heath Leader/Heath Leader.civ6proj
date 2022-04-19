@@ -55,25 +55,49 @@
     <Content Include="Assets\DIS_REL_Ancient_Base_01.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\DIS_REL_Ancient_Base_01_SOL.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\DIS_REL_Ancient_Base_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Ancient_Base_02_SOL.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_REL_Cathedral.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\DIS_REL_Cathedral_SOL.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\DIS_REL_Classical_Base_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Classical_Base_01_SOL.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_REL_Classical_Base_02.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\DIS_REL_Classical_Base_02_SOL.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\DIS_REL_Classical_Base_03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Classical_Base_03_SOL.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_REL_Classical_Base_04.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\DIS_REL_Classical_Base_04_SOL.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\DIS_REL_Construction_Base_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Construction_Base_01_SOL.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_REL_Dar-E-Mehr.ast">
@@ -88,25 +112,49 @@
     <Content Include="Assets\DIS_REL_Industrial_Base_01.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\DIS_REL_Industrial_Base_01_SOL.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\DIS_REL_Industrial_Base_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Industrial_Base_02_SOL.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_REL_Industrial_Base_03.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\DIS_REL_Industrial_Base_03_SOL.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\DIS_REL_Industrial_Base_04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Industrial_Base_04_SOL.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_REL_Modern_Base_01.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\DIS_REL_Modern_Base_01_SOL.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\DIS_REL_Modern_Base_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Modern_Base_02_SOL.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_REL_Modern_Base_03.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\DIS_REL_Modern_Base_03_SOL.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\DIS_REL_Modern_Base_04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_REL_Modern_Base_04_SOL.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\DIS_REL_Mosque.ast">
