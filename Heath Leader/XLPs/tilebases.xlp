@@ -10,60 +10,60 @@
 	<m_PackageName text="landmarks/tilebases"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="DIS_REL_Ancient_Base_01"/>
-			<m_ObjectName text="DIS_REL_Ancient_Base_01"/>
+			<m_EntryID text="DIS_REL_Ancient_Base_01_SOL"/>
+			<m_ObjectName text="DIS_REL_Ancient_Base_01_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Ancient_Base_02"/>
-			<m_ObjectName text="DIS_REL_Ancient_Base_02"/>
+			<m_EntryID text="DIS_REL_Ancient_Base_02_SOL"/>
+			<m_ObjectName text="DIS_REL_Ancient_Base_02_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Classical_Base_01"/>
-			<m_ObjectName text="DIS_REL_Classical_Base_01"/>
+			<m_EntryID text="DIS_REL_Classical_Base_01_SOL"/>
+			<m_ObjectName text="DIS_REL_Classical_Base_01_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Classical_Base_03"/>
-			<m_ObjectName text="DIS_REL_Classical_Base_03"/>
+			<m_EntryID text="DIS_REL_Classical_Base_03_SOL"/>
+			<m_ObjectName text="DIS_REL_Classical_Base_03_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Classical_Base_04"/>
-			<m_ObjectName text="DIS_REL_Classical_Base_04"/>
+			<m_EntryID text="DIS_REL_Classical_Base_04_SOL"/>
+			<m_ObjectName text="DIS_REL_Classical_Base_04_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Classical_Base_02"/>
-			<m_ObjectName text="DIS_REL_Classical_Base_02"/>
+			<m_EntryID text="DIS_REL_Classical_Base_02_SOL"/>
+			<m_ObjectName text="DIS_REL_Classical_Base_02_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Industrial_Base_01"/>
-			<m_ObjectName text="DIS_REL_Industrial_Base_01"/>
+			<m_EntryID text="DIS_REL_Industrial_Base_01_SOL"/>
+			<m_ObjectName text="DIS_REL_Industrial_Base_01_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Industrial_Base_02"/>
-			<m_ObjectName text="DIS_REL_Industrial_Base_02"/>
+			<m_EntryID text="DIS_REL_Industrial_Base_02_SOL"/>
+			<m_ObjectName text="DIS_REL_Industrial_Base_02_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Industrial_Base_03"/>
-			<m_ObjectName text="DIS_REL_Industrial_Base_03"/>
+			<m_EntryID text="DIS_REL_Industrial_Base_03_SOL"/>
+			<m_ObjectName text="DIS_REL_Industrial_Base_03_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Industrial_Base_04"/>
-			<m_ObjectName text="DIS_REL_Industrial_Base_04"/>
+			<m_EntryID text="DIS_REL_Industrial_Base_04_SOL"/>
+			<m_ObjectName text="DIS_REL_Industrial_Base_04_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Modern_Base_01"/>
-			<m_ObjectName text="DIS_REL_Modern_Base_01"/>
+			<m_EntryID text="DIS_REL_Modern_Base_01_SOL"/>
+			<m_ObjectName text="DIS_REL_Modern_Base_01_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Modern_Base_02"/>
-			<m_ObjectName text="DIS_REL_Modern_Base_02"/>
+			<m_EntryID text="DIS_REL_Modern_Base_02_SOL"/>
+			<m_ObjectName text="DIS_REL_Modern_Base_02_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Modern_Base_03"/>
-			<m_ObjectName text="DIS_REL_Modern_Base_03"/>
+			<m_EntryID text="DIS_REL_Modern_Base_03_SOL"/>
+			<m_ObjectName text="DIS_REL_Modern_Base_03_SOL"/>
 		</Element>
 		<Element>
-			<m_EntryID text="DIS_REL_Modern_Base_04"/>
-			<m_ObjectName text="DIS_REL_Modern_Base_04"/>
+			<m_EntryID text="DIS_REL_Modern_Base_04_SOL"/>
+			<m_ObjectName text="DIS_REL_Modern_Base_04_SOL"/>
 		</Element>
 		<Element>
 			<m_EntryID text="DIS_REL_Dar-E-Mehr"/>

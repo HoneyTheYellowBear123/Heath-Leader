@@ -81,7 +81,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Ancient_Base_01"/>
+										<m_EntryName text="DIS_REL_Ancient_Base_01_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -142,7 +142,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Ancient_Base_02"/>
+										<m_EntryName text="DIS_REL_Ancient_Base_02_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -203,7 +203,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_01"/>
+										<m_EntryName text="DIS_REL_Classical_Base_01_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -264,7 +264,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_02"/>
+										<m_EntryName text="DIS_REL_Classical_Base_02_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -325,7 +325,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_03"/>
+										<m_EntryName text="DIS_REL_Classical_Base_03_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -386,7 +386,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -447,7 +447,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -508,7 +508,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -569,7 +569,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -630,7 +630,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -691,7 +691,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -752,7 +752,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -813,7 +813,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -874,7 +874,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -935,7 +935,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -996,7 +996,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1057,7 +1057,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1118,7 +1118,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1179,7 +1179,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1240,7 +1240,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_03"/>
+										<m_EntryName text="DIS_REL_Classical_Base_03_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1309,7 +1309,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_01"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_01_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1370,7 +1370,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_02"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_02_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1431,7 +1431,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_03"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_03_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1492,7 +1492,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_03"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_03_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1545,7 +1545,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1606,7 +1606,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1667,7 +1667,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1728,7 +1728,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1789,7 +1789,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1850,7 +1850,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1911,7 +1911,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -1972,7 +1972,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2033,7 +2033,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2094,7 +2094,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2155,7 +2155,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2216,7 +2216,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2277,7 +2277,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2338,7 +2338,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2407,7 +2407,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_01"/>
+										<m_EntryName text="DIS_REL_Modern_Base_01_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2468,7 +2468,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_02"/>
+										<m_EntryName text="DIS_REL_Modern_Base_02_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2529,7 +2529,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_03"/>
+										<m_EntryName text="DIS_REL_Modern_Base_03_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2590,7 +2590,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_03"/>
+										<m_EntryName text="DIS_REL_Modern_Base_03_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2643,7 +2643,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2704,7 +2704,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2765,7 +2765,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2826,7 +2826,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2887,7 +2887,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -2948,7 +2948,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3009,7 +3009,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3070,7 +3070,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3131,7 +3131,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3192,7 +3192,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3253,7 +3253,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3314,7 +3314,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3375,7 +3375,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3436,7 +3436,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3505,7 +3505,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3566,7 +3566,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3627,7 +3627,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3680,7 +3680,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3741,7 +3741,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3802,7 +3802,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3871,7 +3871,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3932,7 +3932,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -3993,7 +3993,7 @@
 										<m_ParamName text="Tag_Appeal"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -4046,7 +4046,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Classical_Base_04"/>
+										<m_EntryName text="DIS_REL_Classical_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -4107,7 +4107,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Industrial_Base_04"/>
+										<m_EntryName text="DIS_REL_Industrial_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -4168,7 +4168,7 @@
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="DIS_REL_Modern_Base_04"/>
+										<m_EntryName text="DIS_REL_Modern_Base_04_SOL"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
 										<m_BLPPackage text="landmarks/tilebases"/>
@@ -4430,7 +4430,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BuildingVariants004"/>
+							<m_Name text="BuildingVariants004_SOL"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
