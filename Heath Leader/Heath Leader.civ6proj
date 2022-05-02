@@ -17,8 +17,8 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>Heath Leader</AssemblyName>
     <RootNamespace>Heath Leader</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File><File>Heath Leader.Art.xml</File></UpdateArt><UpdateColors id="NewAction"><File>Core/Colour.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_GameDefines.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File><File>Heath Leader.Art.xml</File></UpdateArt><UpdateColors id="NewAction"><File>Core/Colour.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>Heath Leader.Art.xml</File><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="NewAction"><File>Core/Colour.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_GameDefines.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>Heath Leader.Art.xml</File><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="NewAction"><File>Core/Colour.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -26,7 +26,6 @@
   <ItemGroup>
     <Folder Include="ArtDefs" />
     <Folder Include="Core" />
-    <Folder Include="Assets" />
     <Folder Include="XLPs" />
     <Folder Include="Textures" />
   </ItemGroup>
@@ -40,9 +39,6 @@
     <Content Include="ArtDefs\FallbackLeaders.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ArtDefs\Landmarks.artdef">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="ArtDefs\Leaders.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -50,138 +46,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\Units.artdef">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Ancient_Base_01.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Ancient_Base_01_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Ancient_Base_02.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Ancient_Base_02_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Cathedral.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Cathedral_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Classical_Base_01.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Classical_Base_01_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Classical_Base_02.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Classical_Base_02_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Classical_Base_03.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Classical_Base_03_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Classical_Base_04.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Classical_Base_04_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Construction_Base_01.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Construction_Base_01_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Dar-E-Mehr.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Dar_E_Mehr_Pillar_CON.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Gurdwara.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Industrial_Base_01.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Industrial_Base_01_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Industrial_Base_02.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Industrial_Base_02_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Industrial_Base_03.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Industrial_Base_03_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Industrial_Base_04.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Industrial_Base_04_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Modern_Base_01.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Modern_Base_01_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Modern_Base_02.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Modern_Base_02_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Modern_Base_03.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Modern_Base_03_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Modern_Base_04.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Modern_Base_04_SOL.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Mosque.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Pagoda.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Shrine.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_StaveChurch.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Stupa.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Stupa_Rope.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Synagogue.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Temple.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_REL_Wat.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Colour.sql">
@@ -211,7 +75,7 @@
     <Content Include="Heath Leader.Art.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Indean_tribe.dep">
+    <Content Include="Heath Leader.dep">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ART_LEADER_SACAGAWEA_SHOSHONE.dds">
@@ -545,9 +409,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\StrategicView_Districts.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\tilebases.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\UILeaders.xlp">

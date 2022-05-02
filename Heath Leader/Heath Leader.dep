@@ -1,22 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <AssetObjects..GameDependencyData>
 	<ID>
-		<name text="Indean_tribe"/>
-		<id text="0d621473-6ff0-4392-9b44-84f0263c0d70"/>
+		<name text="Heath Leader"/>
+		<id text="f30512fd-91ce-4c17-b594-c7a463f9f181"/>
 	</ID>
-	<RequiredGameArtIDs>
-		<Element>
-			<name text="Civ6"/>
-			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
-		</Element>
-	</RequiredGameArtIDs>
+	<RequiredGameArtIDs/>
 	<SystemDependencies>
 		<Element>
 			<ConsumerName text="Units"/>
-			<ArtDefDependencyPaths>
-				<Element text="Cultures.artdef"/>
-				<Element text="Units.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="Unit"/>
 				<Element text="VFX"/>
@@ -34,11 +26,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Landmarks"/>
-			<ArtDefDependencyPaths>
-				<Element text="Civilizations.artdef"/>
-				<Element text="Cultures.artdef"/>
-				<Element text="Landmarks.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="CityBuildings"/>
 				<Element text="TileBase"/>
@@ -66,9 +54,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_Properties"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -76,9 +62,6 @@
 			<ConsumerName text="StrategicView_Sprite"/>
 			<ArtDefDependencyPaths>
 				<Element text="Districts.artdef"/>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Landmarks.artdef"/>
-				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="StrategicView_Sprite"/>
@@ -88,9 +71,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_Route"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="StrategicView_Route"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -99,9 +80,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_TerrainType"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
 				<Element text="StrategicView_TerrainBlendCorners"/>
@@ -112,9 +91,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_TerrainBlendCorners"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlendCorners"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -123,9 +100,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="StrategicView_TerrainBlend"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
 				<Element text="StrategicView_DirectedAsset"/>
@@ -153,9 +128,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="UI"/>
-			<ArtDefDependencyPaths>
-				<Element text="UserInterface.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="UITexture"/>
 			</LibraryDependencies>
@@ -183,9 +156,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="UILensAsset"/>
-			<ArtDefDependencyPaths>
-				<Element text="Overlay.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -194,9 +165,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Overlay"/>
-			<ArtDefDependencyPaths>
-				<Element text="Overlay.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -256,18 +225,13 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Civilizations"/>
-			<ArtDefDependencyPaths>
-				<Element text="Civilizations.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
 		<Element>
 			<ConsumerName text="Cultures"/>
-			<ArtDefDependencyPaths>
-				<Element text="Civilizations.artdef"/>
-				<Element text="Cultures.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -286,11 +250,7 @@
 		<Element>
 			<ConsumerName text="WorldView_Translate"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilizations.artdef"/>
-				<Element text="Cultures.artdef"/>
 				<Element text="Districts.artdef"/>
-				<Element text="Landmarks.artdef"/>
-				<Element text="StrategicView.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
@@ -299,9 +259,6 @@
 			<ConsumerName text="StrategicView_Translate"/>
 			<ArtDefDependencyPaths>
 				<Element text="Districts.artdef"/>
-				<Element text="Landmarks.artdef"/>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
@@ -309,12 +266,7 @@
 		<Element>
 			<ConsumerName text="Audio"/>
 			<ArtDefDependencyPaths>
-				<Element text="Civilizations.artdef"/>
 				<Element text="Districts.artdef"/>
-				<Element text="Units.artdef"/>
-				<Element text="Landmarks.artdef"/>
-				<Element text="StrategicView.artdef"/>
-				<Element text="Cultures.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
@@ -414,9 +366,7 @@
 		</Element>
 		<Element>
 			<ConsumerName text="RangeArrows"/>
-			<ArtDefDependencyPaths>
-				<Element text="Overlay.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 			<LibraryDependencies>
 				<Element text="OverlayTexture"/>
 				<Element text="UILensAsset"/>
@@ -426,52 +376,14 @@
 	</SystemDependencies>
 	<ArtDefDependencies>
 		<Element>
-			<ArtDefPath text="Cultures.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
-		<Element>
-			<ArtDefPath text="Units.artdef"/>
-			<ArtDefDependencyPaths>
-				<Element text="Units.artdef"/>
-				<Element text="Cultures.artdef"/>
-			</ArtDefDependencyPaths>
-		</Element>
-		<Element>
-			<ArtDefPath text="Clutter.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
-		<Element>
-			<ArtDefPath text="Civilizations.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
-		<Element>
-			<ArtDefPath text="Landmarks.artdef"/>
-			<ArtDefDependencyPaths>
-				<Element text="Landmarks.artdef"/>
-				<Element text="Cultures.artdef"/>
-			</ArtDefDependencyPaths>
-		</Element>
-		<Element>
 			<ArtDefPath text="StrategicView.artdef"/>
-			<ArtDefDependencyPaths>
-				<Element text="StrategicView.artdef"/>
-			</ArtDefDependencyPaths>
+			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
 			<ArtDefPath text="Districts.artdef"/>
 			<ArtDefDependencyPaths>
-				<Element text="Landmarks.artdef"/>
-				<Element text="StrategicView.artdef"/>
 				<Element text="Districts.artdef"/>
 			</ArtDefDependencyPaths>
-		</Element>
-		<Element>
-			<ArtDefPath text="UserInterface.artdef"/>
-			<ArtDefDependencyPaths/>
-		</Element>
-		<Element>
-			<ArtDefPath text="Overlay.artdef"/>
-			<ArtDefDependencyPaths/>
 		</Element>
 	</ArtDefDependencies>
 	<LibraryDependencies>
@@ -546,7 +458,7 @@
 		<Element>
 			<LibraryName text="StrategicView_Sprite"/>
 			<PackageDependencies>
-				<Element text="UI/StrategicView.blp"/>
+				<Element text="strategicview/strategicview_districts.blp"/>
 			</PackageDependencies>
 		</Element>
 		<Element>
@@ -575,15 +487,11 @@
 		</Element>
 		<Element>
 			<LibraryName text="TileBase"/>
-			<PackageDependencies>
-				<Element text="TileBase.blp"/>
-			</PackageDependencies>
+			<PackageDependencies/>
 		</Element>
 		<Element>
 			<LibraryName text="UILensAsset"/>
-			<PackageDependencies>
-				<Element text="LensAssets.blp"/>
-			</PackageDependencies>
+			<PackageDependencies/>
 		</Element>
 		<Element>
 			<LibraryName text="UITexture"/>
@@ -593,9 +501,7 @@
 		</Element>
 		<Element>
 			<LibraryName text="Unit"/>
-			<PackageDependencies>
-				<Element text="units/units.blp"/>
-			</PackageDependencies>
+			<PackageDependencies/>
 		</Element>
 		<Element>
 			<LibraryName text="VFX"/>

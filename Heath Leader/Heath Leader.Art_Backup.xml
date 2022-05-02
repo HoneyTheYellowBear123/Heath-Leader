@@ -8,7 +8,6 @@
 		<Element>
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
-				<Element text="Units.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -20,7 +19,6 @@
 		<Element>
 			<consumerName text="Clutter"/>
 			<relativeArtDefPaths>
-				<Element text="Clutter.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Landmark"/>
@@ -30,8 +28,6 @@
 		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
-				<Element text="Civilizations.artdef"/>
-				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -73,7 +69,6 @@
 			<consumerName text="StrategicView_Sprite"/>
 			<relativeArtDefPaths>
 				<Element text="Districts.artdef"/>
-				<Element text="StrategicView.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_Sprite"/>
@@ -263,7 +258,6 @@
 		<Element>
 			<consumerName text="Civilizations"/>
 			<relativeArtDefPaths>
-				<Element text="Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -272,7 +266,6 @@
 		<Element>
 			<consumerName text="Cultures"/>
 			<relativeArtDefPaths>
-				<Element text="Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -297,7 +290,6 @@
 		<Element>
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
-				<Element text="Civilizations.artdef"/>
 				<Element text="Districts.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
@@ -316,10 +308,7 @@
 		<Element>
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
-				<Element text="Civilizations.artdef"/>
 				<Element text="Districts.artdef"/>
-				<Element text="Leaders.artdef"/>
-				<Element text="Units.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -328,7 +317,6 @@
 		<Element>
 			<consumerName text="LeaderLighting"/>
 			<relativeArtDefPaths>
-				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderLighting"/>
@@ -339,7 +327,6 @@
 		<Element>
 			<consumerName text="Leaders"/>
 			<relativeArtDefPaths>
-				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Leader"/>
@@ -351,7 +338,6 @@
 		<Element>
 			<consumerName text="LeaderFallback"/>
 			<relativeArtDefPaths>
-				<Element text="FallbackLeaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderFallback"/>
@@ -496,7 +482,6 @@
 		<Element>
 			<libraryName text="LeaderFallback"/>
 			<relativePackagePaths>
-				<Element text="LeaderFallbacks"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -578,7 +563,6 @@
 		<Element>
 			<libraryName text="TileBase"/>
 			<relativePackagePaths>
-				<Element text="landmarks/tilebases"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -589,10 +573,7 @@
 		<Element>
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
-				<Element text="Icons"/>
-				<Element text="LeaderBackgrounds"/>
-				<Element text="LEADER_JOEL_SACAGAWEA_SHOSHONE"/>
-				<Element text="UILeaders"/>
+				<Element text="UI/Icons"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -627,4 +608,4 @@
 			<id text="725760e3-7fc0-4be7-abf1-17bc756d5436"/>
 		</Element>
 	</requiredGameArtIDs>
-</AssetObjects::GameArtSpecification>
+</AssetObjects..GameArtSpecification>
