@@ -268,7 +268,7 @@
 		
 		<!--DOM-->
 		<Row Tag="LOC_LOADING_INFO_LEADER_JOEL_SACAGAWEA_SHOSHONE" Language="en_US">
-			<Text>Sacagawea the colonists thank you, without you they would have never been able to traverse the new and rough terrain of western America. With an infant on your back and a crew of explorers behind you, you led your way to the new world. What will you do when you get there?</Text>
+			<Text>Who but you Heath? The once and future president, lead not only your people, but the whole world in tastefulness, whether it be through music, fashion, or beverages. Those who would disagree with you are objectively wrong, and it falls upon your shoulders to show them the light.</Text>
 		</Row>
 		
 		
@@ -277,7 +277,7 @@
 			<Text>Heath Murphy</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JOEL_SACAGAWEA_SHOSHONE_SUBTITLE" Language="en_US">
-			<Text>Explorer</Text>
+			<Text>Vampire?</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JOEL_SACAGAWEA_SHOSHONE_QUOTE" Language="en_US">
 			<Text>Your Leaders Quote</Text>
