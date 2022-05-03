@@ -468,7 +468,7 @@
 			<Text>Solstice Center</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_SOLSTICE_CENTER_DESCRIPTION" Language="en_US">
-			<Text>District Unique to Heath that replaces holy site, recieves an additional [Icon_Culture] Culture adjacancy bonus, and grants one additional [Icon_GreatProphet] Great Prophet point. Also grants one [Icon_GreatMusician] Great Musician point upon building a shrine, one [Icon_GreatScientist] Great Scientist Point upon building a temple, and one [Icon_GreatEngineer] Great Engineer point upon building a tier 3 religious building. </Text>
+			<Text>District Unique to Heath that replaces holy site, recieves an additional [Icon_Culture] Culture adjacancy bonus, and grants one additional [Icon_GreatProphet] Great Prophet point per turn. Also grants one [Icon_GreatMusician] Great Musician point per turn upon building a shrine, one [Icon_GreatScientist] Great Scientist Point per turn upon building a temple, and one [Icon_GreatEngineer] Great Engineer point per turn upon building a tier 3 religious building. </Text>
 		</Row>
 		
 		
