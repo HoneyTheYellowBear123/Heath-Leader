@@ -285,106 +285,117 @@ VALUES	('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType',      
 
 
 
---<ModifierId>GREATPERSON_GRANT_JEANS</ModifierId>
---			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
---			<RunOnce>true</RunOnce>
---			<Permanent>true</Permanent>
-
-
---ModifierId>GREATPERSON_GRANT_JEANS</ModifierId>
---			<Name>ResourceType</Name>
---			<Value>RESOURCE_JEANS</Value>
---		</Row>
---		<Row>
---			<ModifierId>GREATPERSON_GRANT_JEANS</ModifierId>
---			<Name>Amount</Name>
---			<Value>2</Value>
 
 
 
+--============================================================
+-- UU: Uwassiye
+--============================================================
+-- Classical Naval Raider unit. Replaces the Quadrireme
+-- When within 4 tiles of an embarked trader, 
+--		gains +10 to combat
+--		gains +1 move
+--		and may make a second attack.
+--============================================================
+-- Not hard, the majority of the buff is from the fact that you get an early privateer anyways
+
+INSERT INTO Units
+		(UnitType,						Name,									Description,									Domain,			FormationClass,				PromotionClass,					BaseSightRange,	BaseMoves,	Combat,	RangedCombat,	Range,	ZoneOfControl,	Maintenance,	PurchaseYield,	MustPurchase,	Cost,	CostProgressionModel,	CostProgressionParam1,	TraitType,											PrereqTech,				PseudoYieldType,					MandatoryObsoleteCivic, AdvisorType)
+VALUES	('UNIT_LIME_SOMALIA_UWASSIYE',	'LOC_UNIT_LIME_SOMALIA_UWASSIYE_NAME',	'LOC_UNIT_LIME_SOMALIA_UWASSIYE_DESCRIPTION',	'DOMAIN_SEA',	'FORMATION_CLASS_NAVAL',	'PROMOTION_CLASS_NAVAL_RAIDER',	3,				3,			20,		25,				1,		0,				1,				'YIELD_GOLD',	0,				65,		'NO_COST_PROGRESSION',	0,						'TRAIT_CIVILIZATION_UNIT_LIME_SOMALIA_UWASSIYE',	'TECH_SHIPBUILDING',	'PSEUDOYIELD_UNIT_NAVAL_COMBAT',	'CIVIC_EXPLORATION',	'ADVISOR_CONQUEST');
+
+-- I would do dividers
+-- But tbh they get so tedious and I often dek what the point of em is
+-- Is it just to break up the code?
+-- Doesn't really help for me
+-- Regardless, I almost guarantee I screwed up the units insert at some point, there are too goddamn many fields
+-- Honestly, collapsibles would be nice
+
+INSERT INTO UnitAIInfos	
+		(UnitType,								AiType)
+SELECT	'UNIT_LIME_SOMALIA_UWASSIYE',			AiType
+From UnitAIInfos
+	WHERE UnitType = 'UNIT_QUADRIREME';
+
+INSERT INTO Tags	
+		(Tag,							Vocabulary)
+VALUES	('CLASS_LIME_SOMALIA_UWASSIYE',	'ABILITY_CLASS');
+
+INSERT INTO TypeTags
+		(Type,											Tag)
+VALUES	('UNIT_LIME_SOMALIA_UWASSIYE',					'CLASS_LIME_SOMALIA_UWASSIYE'),
+		('ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY',	'CLASS_LIME_SOMALIA_UWASSIYE');
+
+INSERT INTO UnitReplaces
+		(CivUniqueUnitType,				ReplacesUnitType)
+VALUES	('UNIT_LIME_SOMALIA_UWASSIYE',	'UNIT_QUADRIREME');
+
+INSERT INTO MomentIllustrations
+		(MomentIllustrationType,			MomentDataType,		GameDataType,					Texture)
+VALUES	('MOMENT_ILLUSTRATION_UNIQUE_UNIT',	'MOMENT_DATA_UNIT',	'UNIT_LIME_SOMALIA_UWASSIYE',	'HM_LimeSomalia_Uwassiye.dds');
+
+------------------------------------This stuff is select inserts
+INSERT INTO TypeTags
+		(Type,							Tag)
+SELECT	'UNIT_LIME_SOMALIA_UWASSIYE',	Tag
+FROM TypeTags
+	WHERE Type = 'UNIT_QUADRIREME';
+
+INSERT INTO UnitUpgrades
+		(Unit,							UpgradeUnit)
+VALUES ('UNIT_LIME_SOMALIA_UWASSIYE',	'UNIT_PRIVATEER');
+---------------------------------------------------------------
+
+INSERT INTO UnitAbilities
+		(UnitAbilityType,								Name,													Description)
+VALUES	('ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY',	'LOC_ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY_NAME',	'LOC_ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY_DESCRIPTION');
+
+
+INSERT INTO UnitAbilityModifiers			
+		(UnitAbilityType,								ModifierId)
+VALUES	('ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY',	'MOD_LIME_SOMALIA_UWASSIYE_MORE_COMBAT'),
+		('ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY',	'UNIT_COASTAL_RAID'),
+		('ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY',	'MOD_LIME_SOMALIA_UWASSIYE_MORE_ATTACKS');
+
+INSERT INTO Modifiers
+		(ModifierId,									ModifierType,								SubjectRequirementSetId)
+VALUES	('MOD_LIME_SOMALIA_UWASSIYE_MORE_COMBAT',		'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH',		'REQSET_LIME_SOMALIA_UWASSIYE_NEAR_TRADER'),	
+		--('MOD_LIME_SOMALIA_UWASSIYE_MORE_MOVES',		'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT',		'REQSET_LIME_SOMALIA_UWASSIYE_NEAR_TRADER'),
+		('MOD_LIME_SOMALIA_UWASSIYE_MORE_ATTACKS',		'MODIFIER_UNIT_ADJUST_NUM_ATTACKS',			'REQSET_LIME_SOMALIA_UWASSIYE_NEAR_TRADER');
+
+INSERT INTO ModifierStrings
+		(ModifierId,									Context,	Text)
+VALUES	('MOD_LIME_SOMALIA_UWASSIYE_MORE_COMBAT',		'Preview',	'LOC_ABILITY_LIME_SOMALIA_UWASSIYE_STRENGTH_DESCRIPTION'),
+		--('MOD_LIME_SOMALIA_UWASSIYE_MORE_MOVES',		'Preview',	'LOC_ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY_MOVES_DESCRIPTION'),
+		('MOD_LIME_SOMALIA_UWASSIYE_MORE_ATTACKS',		'Preview',	'LOC_ABILITY_LIME_SOMALIA_UWASSIYE_ATTACKS_DESCRIPTION');
+
+INSERT INTO ModifierArguments
+		(ModifierId,									Name,			Value)
+VALUES	('MOD_LIME_SOMALIA_UWASSIYE_MORE_COMBAT',		'Amount',		5),
+	--	('MOD_LIME_SOMALIA_UWASSIYE_MORE_MOVES',		'Amount',		1),
+		('MOD_LIME_SOMALIA_UWASSIYE_MORE_ATTACKS',		'Amount',		1);
+
+INSERT INTO RequirementSets
+		(RequirementSetId,								RequirementSetType)
+VALUES	('REQSET_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',	'REQUIREMENTSET_TEST_ANY');
+
+INSERT INTO RequirementSetRequirements
+		(RequirementSetId,								RequirementId)
+VALUES	('REQSET_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',	'REQ_LIME_SOMALIA_UWASSIYE_NEAR_TRADER');
+
+INSERT INTO Requirements
+		(RequirementId,									RequirementType)
+VALUES	('REQ_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',		'REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES');
+
+INSERT INTO RequirementArguments
+		(RequirementId,									Name,			Value)
+VALUES	('REQ_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',		'UnitType',		'UNIT_TRADER'),
+		('REQ_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',		'MinRange',		0),
+		('REQ_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',		'MaxRange',		3);
 
 
 
 
---==========================================================================================================================
--- CIVILIZATIONS: TRAITS ----------- DELETE ME
---==========================================================================================================================
--- Types
---------------------------------------------------------------------------------------------------------------------------	
---INSERT INTO Types	
---		(Type,													Kind)
---VALUES	('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',						'KIND_TRAIT'),
---		('TRAIT_CIVILIZATION_SHOSHONE_UNIT_INDIAN_SPEAR',						'KIND_TRAIT'),
---		('TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',					'KIND_TRAIT');
-		
-			
---------------------------------------------------------------------------------------------------------------------------			
--- Traits			
---------------------------------------------------------------------------------------------------------------------------				
---INSERT INTO Traits				
---		(TraitType,													Name,													Description)
---VALUES	('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',						'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_NAME',					'LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_DESCRIPTION'),
---		('TRAIT_CIVILIZATION_SHOSHONE_UNIT_INDIAN_SPEAR',					'LOC_UNIT_INDIAN_SPEAR_NAME',									'LOC_UNIT_INDIAN_SPEAR_DESCRIPTION'),
---		('TRAIT_CIVILIZATION_SHOSHONE_BUILDING_WIGWAM',			'LOC_BUILDING_WIGWAM_NAME',							'LOC_BUILDING_WIGWAM_DESCRIPTION');
-		
---------------------------------------------------------------------------------------------------------------------------		
--- TraitModifiers		
---------------------------------------------------------------------------------------------------------------------------			
---INSERT INTO TraitModifiers			
---		(TraitType,											ModifierId)
---VALUES
---		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_PATHFINDER_MOVE'),
---		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_CULTURE'),
---		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_FAITH'),
---		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_CULTURE2'),
---		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_SCIENCE'),
---		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_FOREST_APPEAL'),
---		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_INDIAN_PARK'),
---		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_MOVE_WOODS'),
---		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_MOVE_JUNGLE'),
---		('TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS',					'JOEL_TRAIT_MOVE_HILLS');
-																					
 
-	--------------------------------------------------------------------------------------------------------------------------
--- Modifiers
---------------------------------------------------------------------------------------------------------------------------
---INSERT INTO Modifiers	
---		(ModifierId,												ModifierType,					SubjectRequirementSetId)
---VALUES	('JOEL_TRAIT_FOREST_CULTURE',		'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'FOREST_IS_NOT_IMPROVED_TECH_REQUIRMENT'),
---		('JOEL_TRAIT_FOREST_CULTURE2',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'FOREST_IS_NOT_IMPROVED_TECH2_REQUIRMENT'),
---		('JOEL_TRAIT_INDIAN_PARK',			'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE',	'CITY_HAS_NATIONAL_PARK_REQUREMENTS'),
---		('JOEL_TRAIT_FOREST_FAITH',			'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'PLOT_HAS_FOREST_NO_IMPROVEMENT_REQUIREMENTS'),
---		('JOEL_TRAIT_FOREST_SCIENCE',	'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	'FOREST_IS_NOT_IMPROVED_TECH2_REQUIRMENT');
-		
-					
---------------------------------------------------------------------------------------------------------------------------
--- ModifierArguments
---------------------------------------------------------------------------------------------------------------------------
---INSERT INTO ModifierArguments
---		(ModifierId,												Name,						Value)
---VALUES	
---		('JOEL_TRAIT_INDIAN_PARK',							'Amount',							'10'),
---		('JOEL_TRAIT_INDIAN_PARK',							'YieldType',			'YIELD_GOLD'),
---		('JOEL_TRAIT_FOREST_CULTURE',							'Amount',							'1'),
---		('JOEL_TRAIT_FOREST_CULTURE',							'YieldType',			'YIELD_CULTURE'),
---		('JOEL_TRAIT_FOREST_CULTURE2',							'Amount',							'1'),
---		('JOEL_TRAIT_FOREST_CULTURE2',							'YieldType',			'YIELD_CULTURE'),
---		('JOEL_TRAIT_FOREST_APPEAL',						'FeatureType',			'FEATURE_FOREST'),
---		('JOEL_TRAIT_FOREST_APPEAL',						'Amount',							'1'),
---		('JOEL_TRAIT_FOREST_FAITH',							'Amount',							'1'),
---		('JOEL_TRAIT_FOREST_FAITH',							'YieldType',			'YIELD_FAITH'),
---		('JOEL_TRAIT_FOREST_SCIENCE',							'Amount',							'1'),
---		('JOEL_TRAIT_FOREST_SCIENCE',							'YieldType',			'YIELD_SCIENCE'),
---		('JOEL_TRAIT_MOVE_WOODS',								'ModifierId',			'JOEL_TRAIT_MOVE_WOODS_ATTACH'),
---		('JOEL_TRAIT_MOVE_WOODS_ATTACH',						'Ignore',						'true'),
---		('JOEL_TRAIT_MOVE_WOODS_ATTACH',						'Type',						'FOREST'),
---		('JOEL_TRAIT_MOVE_JUNGLE',								'ModifierId',			'JOEL_TRAIT_MOVE_JUNGLE_ATTACH'),
---		('JOEL_TRAIT_MOVE_JUNGLE_ATTACH',						'Ignore',						'true'),
---		('JOEL_TRAIT_MOVE_JUNGLE_ATTACH',						'Type',						'JUNGLE'),
---		('JOEL_TRAIT_MOVE_HILLS',								'ModifierId',			'JOEL_TRAIT_MOVE_HILLS_ATTACH'),
---		('JOEL_TRAIT_MOVE_HILLS_ATTACH',						'Ignore',						'true'),
---		('JOEL_TRAIT_MOVE_HILLS_ATTACH',						'Type',						'HILLS');
-	
 		
 
 --=====================================================================================================
