@@ -470,6 +470,14 @@
 		<Row Tag="LOC_DISTRICT_SOLSTICE_CENTER_DESCRIPTION" Language="en_US">
 			<Text>District Unique to Heath that replaces holy site, recieves an additional [Icon_Culture] Culture adjacancy bonus, and grants one additional [Icon_GreatProphet] Great Prophet point per turn. Also grants one [Icon_GreatMusician] Great Musician point per turn upon building a shrine, one [Icon_GreatScientist] Great Scientist Point per turn upon building a temple, and one [Icon_GreatEngineer] Great Engineer point per turn upon building a tier 3 religious building. </Text>
 		</Row>
+
+		<Row Tag="LOC_UNIT_LEHEATHEL_CROSSBOWMAN_NAME" Language="en_US">
+			<Text>LeHEATHel Crossbowman</Text>
+		</Row>
+		<Row Tag="LOCAL_UNIT_LEHEATHEL_CROSSBOWMAN_DESCRIPTION" Language="en_US">
+			<Text>A more powerful version of the Crossbowman. Has +1 Sight, Range, and Movement, as well as +5 Ranged Strength.</Text>
+		</Row>
+		
 		
 		
 		<Row Tag="LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_NAME" Language="en_US">
