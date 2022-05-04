@@ -285,8 +285,10 @@ VALUES	('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType',      
 
 
 
-
-
+--========================================================
+--  UU: LeHEATHel Crossbowman
+--=======================================================
+-- +1 movement, sight, and range, +5 damage
 
 --============================================================
 -- UU: Uwassiye
@@ -300,8 +302,10 @@ VALUES	('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType',      
 -- Not hard, the majority of the buff is from the fact that you get an early privateer anyways
 
 INSERT INTO Units
-		(UnitType,						Name,									Description,									Domain,			FormationClass,				PromotionClass,					BaseSightRange,	BaseMoves,	Combat,	RangedCombat,	Range,	ZoneOfControl,	Maintenance,	PurchaseYield,	MustPurchase,	Cost,	CostProgressionModel,	CostProgressionParam1,	TraitType,											PrereqTech,				PseudoYieldType,					MandatoryObsoleteCivic, AdvisorType)
-VALUES	('UNIT_LIME_SOMALIA_UWASSIYE',	'LOC_UNIT_LIME_SOMALIA_UWASSIYE_NAME',	'LOC_UNIT_LIME_SOMALIA_UWASSIYE_DESCRIPTION',	'DOMAIN_SEA',	'FORMATION_CLASS_NAVAL',	'PROMOTION_CLASS_NAVAL_RAIDER',	3,				3,			20,		25,				1,		0,				1,				'YIELD_GOLD',	0,				65,		'NO_COST_PROGRESSION',	0,						'TRAIT_CIVILIZATION_UNIT_LIME_SOMALIA_UWASSIYE',	'TECH_SHIPBUILDING',	'PSEUDOYIELD_UNIT_NAVAL_COMBAT',	'CIVIC_EXPLORATION',	'ADVISOR_CONQUEST');
+		(UnitType,						Name,									Description,									Domain,			FormationClass,				PromotionClass,					BaseSightRange,	BaseMoves,	Combat,	RangedCombat,	Range,	ZoneOfControl,	Maintenance,	PurchaseYield,	MustPurchase,	Cost,	CostProgressionModel,	CostProgressionParam1,	TraitType,											PrereqTech,				MandatoryObsoleteTech,            AdvisorType)
+VALUES	('UNIT_LEHEATHEL_CROSSBOWMAN', 'LOCAL_UNIT_LEHEATHEL_CROSSBOWMAN_NAME', 'LOCAL_UNIT_LEHEATHEL_CROSSBOWMAN_DESCRIPTION', 'DOMAIN_LAND', 'FORMATION_CLASS_LAND_COMBAT', 'PROMOTION_CLASS_RANGED',     3,              3,          30,     45,             3,      0,              3,              'YIELD_GOLD',   0,              180,    'NO_COST_PROGRESSION',  0,                      'TRAIT_HEATH_UNIT_LEHEATHEL_CROSSBOWMAN',            'TECH_MACHINERY',       'TECH_ADVANCED_BALLISTICS',       'ADVISOR_CONQUEST' );
+		
+--		('UNIT_LIME_SOMALIA_UWASSIYE',	'LOC_UNIT_LIME_SOMALIA_UWASSIYE_NAME',	'LOC_UNIT_LIME_SOMALIA_UWASSIYE_DESCRIPTION',	'DOMAIN_SEA',	'FORMATION_CLASS_NAVAL',	'PROMOTION_CLASS_NAVAL_RAIDER',	3,				3,			20,		25,				1,		0,				1,				'YIELD_GOLD',	0,				65,		'NO_COST_PROGRESSION',	0,						'TRAIT_CIVILIZATION_UNIT_LIME_SOMALIA_UWASSIYE',	'TECH_SHIPBUILDING',	'PSEUDOYIELD_UNIT_NAVAL_COMBAT',	'CIVIC_EXPLORATION',	'ADVISOR_CONQUEST');
 
 -- I would do dividers
 -- But tbh they get so tedious and I often dek what the point of em is
@@ -339,6 +343,8 @@ INSERT INTO TypeTags
 SELECT	'UNIT_LIME_SOMALIA_UWASSIYE',	Tag
 FROM TypeTags
 	WHERE Type = 'UNIT_QUADRIREME';
+
+
 
 INSERT INTO UnitUpgrades
 		(Unit,							UpgradeUnit)
