@@ -342,10 +342,13 @@ INSERT INTO UnitReplaces
 		(CivUniqueUnitType,				ReplacesUnitType)
 VALUES	('UNIT_LEHEATHEL_CROSSBOWMAN',	'UNIT_CROSSBOWMAN');
 
+
+--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 --FIX ME
-INSERT INTO MomentIllustrations
-		(MomentIllustrationType,			MomentDataType,		GameDataType,					Texture)
-VALUES	('MOMENT_ILLUSTRATION_UNIQUE_UNIT',	'MOMENT_DATA_UNIT',	'UNIT_LEHEATHEL_CROSSBOWMAN',	'HM_LimeSomalia_Uwassiye.dds');
+--INSERT INTO MomentIllustrations
+--		(MomentIllustrationType,			MomentDataType,		GameDataType,					Texture)
+--VALUES	('MOMENT_ILLUSTRATION_UNIQUE_UNIT',	'MOMENT_DATA_UNIT',	'UNIT_LEHEATHEL_CROSSBOWMAN',	'HM_LimeSomalia_Uwassiye.dds');
+--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 ------------------------------------This stuff is select inserts
 INSERT INTO TypeTags
