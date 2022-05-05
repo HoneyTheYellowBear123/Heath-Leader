@@ -300,6 +300,15 @@ VALUES	('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType',      
 --		and may make a second attack.
 --============================================================
 -- Not hard, the majority of the buff is from the fact that you get an early privateer anyways
+INSERT INTO Types
+			(Type,                                        Kind)
+VALUES      ('UNIT_LEHEATHEL_CROSSBOWMAN',               'KIND_UNIT'),
+			('TRAIT_HEATH_UNIT_LEHEATHEL_CROSSBOWMAN',   'KIND_TRAIT');
+
+INSERT INTO Traits
+			(TraitType,                                        Name,             Description)
+VALUES		('TRAIT_CIVILIZATION_UNIT_LEHEATHEL_CROSSBOWMAN', 'LOC_UNIT_LEHEATHEL_CROSSBOWMAN_NAME', NULL)
+
 
 INSERT INTO Units
 		(UnitType,						Name,									Description,									Domain,			FormationClass,				PromotionClass,					BaseSightRange,	BaseMoves,	Combat,	RangedCombat,	Range,	ZoneOfControl,	Maintenance,	PurchaseYield,	MustPurchase,	Cost,	CostProgressionModel,	CostProgressionParam1,	TraitType,											PrereqTech,				MandatoryObsoleteTech,            AdvisorType)
