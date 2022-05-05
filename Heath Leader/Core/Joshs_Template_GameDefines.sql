@@ -306,8 +306,8 @@ VALUES      ('UNIT_LEHEATHEL_CROSSBOWMAN',               'KIND_UNIT'),
 			('TRAIT_HEATH_UNIT_LEHEATHEL_CROSSBOWMAN',   'KIND_TRAIT');
 
 INSERT INTO Traits
-			(TraitType,                                        Name,             Description)
-VALUES		('TRAIT_HEATH_UNIT_LEHEATHEL_CROSSBOWMAN', 'LOC_UNIT_LEHEATHEL_CROSSBOWMAN_NAME', NULL);
+			(TraitType,                                        Name,                           Description)
+VALUES		('TRAIT_HEATH_UNIT_LEHEATHEL_CROSSBOWMAN', 'LOC_UNIT_LEHEATHEL_CROSSBOWMAN_NAME', 'LOC_UNIT_LEHEATHEL_CROSSBOWMAN_DESCRIPTION');
 
 
 INSERT INTO Units
