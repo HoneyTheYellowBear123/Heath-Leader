@@ -48,6 +48,9 @@
     <Content Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\UnitsBackup.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Core\Colour.sql">
       <SubType>Content</SubType>
     </Content>
