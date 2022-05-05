@@ -11,8 +11,15 @@
 		<Row Name="ICON_ATLAS_LEADER_SACAGAWEA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SACAGAWEA_80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_SACAGAWEA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SACAGAWEA_256.dds"/>
 
-		
+		<Row Name="ICON_ATLAS_HEATH_HEAD" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HEATH_HEAD_32.dds"/>
+		<Row Name="ICON_ATLAS_HEATH_HEAD" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HEATH_HEAD_45.dds"/>
+		<Row Name="ICON_ATLAS_HEATH_HEAD" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HEATH_HEAD_50.dds"/>
+		<Row Name="ICON_ATLAS_HEATH_HEAD" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HEATH_HEAD_55.dds"/>
+		<Row Name="ICON_ATLAS_HEATH_HEAD" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HEATH_HEAD_64.dds"/>
+		<Row Name="ICON_ATLAS_HEATH_HEAD" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HEATH_HEAD_80.dds"/>
+		<Row Name="ICON_ATLAS_HEATH_HEAD" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_HEATH_HEAD_256.dds"/>
 
+		
 		<!--CIV Icons-->
 
 		<Row Name="ICON_ATLAS_CIV_SHOSHONE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_SHOSHONE_32.dds"/>
@@ -43,6 +50,15 @@
 		<Row Name="ICON_ATLAS_ARROW_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ARROW_UNIT_80.dds"/>
 		<Row Name="ICON_ATLAS_ARROW_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ARROW_UNIT_256.dds"/>
 
+
+		<Row Name="ICON_ATLAS_SKULLCROSS_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SKULLCROSS_UNIT_32.dds"/>
+		<Row Name="ICON_ATLAS_SKULLCROSS_UNIT" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SKULLCROSS_UNIT_45.dds"/>
+		<Row Name="ICON_ATLAS_SKULLCROSS_UNIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SKULLCROSS_UNIT_50.dds"/>
+		<Row Name="ICON_ATLAS_SKULLCROSS_UNIT" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SKULLCROSS_UNIT_55.dds"/>
+		<Row Name="ICON_ATLAS_SKULLCROSS_UNIT" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SKULLCROSS_UNIT_64.dds"/>
+		<Row Name="ICON_ATLAS_SKULLCROSS_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SKULLCROSS_UNIT_80.dds"/>
+		<Row Name="ICON_ATLAS_SKULLCROSS_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SKULLCROSS_UNIT_256.dds"/>
+
 		
 		<!--Unit portrait-->
 
@@ -70,6 +86,8 @@
 	<IconDefinitions>
 		<!--Leader Icons-->
 		<Row Name="ICON_LEADER_JOEL_SACAGAWEA_SHOSHONE" Atlas="ICON_ATLAS_LEADER_SACAGAWEA" Index="0"/>
+
+		<Row Name="ICON_LEADER_HEATH_MURPHY_HEAD" Atlas="ICON_ATLAS_HEATH_HEAD" Index="0"/>
 		
 		<!--Civilization Icons-->
 		<Row Name="ICON_CIVILIZATION_JOEL_CIV_SHOSHONE" Atlas="ICON_ATLAS_CIV_SHOSHONE" Index="0"/>
@@ -84,6 +102,8 @@
 		<!-- INDIAN_SPEAR -->
 		<Row Name="ICON_UNIT_INDIAN_SPEAR" Atlas="ICON_ATLAS_ARROW_UNIT" Index="0"/>
 		<Row Name="ICON_UNIT_INDIAN_SPEAR_PORTRAIT" Atlas="ICON_ATLAS_SCOUT_UNIT" Index="0"/>
+
+		<Row Name="ICON_UNIT_LEHEATHEL_CROSSBOWMAN" Atlas="ICON_ATLAS_SKULLCROSS_UNIT" Index="0"/>
 	
 
 

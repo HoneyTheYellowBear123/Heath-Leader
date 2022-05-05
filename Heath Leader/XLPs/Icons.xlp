@@ -38,6 +38,34 @@
 			<m_ObjectName text="ICON_LEADER_SACAGAWEA_32"/>
 		</Element>
 		<Element>
+			<m_EntryID text="ICON_HEATH_HEAD_256"/>
+			<m_ObjectName text="ICON_HEATH_HEAD_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_HEATH_HEAD_80"/>
+			<m_ObjectName text="ICON_HEATH_HEAD_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_HEATH_HEAD_64"/>
+			<m_ObjectName text="ICON_HEATH_HEAD_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_HEATH_HEAD_55"/>
+			<m_ObjectName text="ICON_HEATH_HEAD_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_HEATH_HEAD_50"/>
+			<m_ObjectName text="ICON_HEATH_HEAD_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_HEATH_HEAD_45"/>
+			<m_ObjectName text="ICON_HEATH_HEAD_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_HEATH_HEAD_32"/>
+			<m_ObjectName text="ICON_HEATH_HEAD_32"/>
+		</Element>
+		<Element>
 			<m_EntryID text="ICON_CIV_SHOSHONE_256"/>
 			<m_ObjectName text="ICON_CIV_SHOSHONE_256"/>
 		</Element>
@@ -143,6 +171,34 @@
 		<Element>
 			<m_EntryID text="ICON_ARROW_UNIT_32"/>
 			<m_ObjectName text="ICON_ARROW_UNIT_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SKULLCROSS_UNIT_256"/>
+			<m_ObjectName text="ICON_SKULLCROSS_UNIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SKULLCROSS_UNIT_80"/>
+			<m_ObjectName text="ICON_SKULLCROSS_UNIT_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SKULLCROSS_UNIT_64"/>
+			<m_ObjectName text="ICON_SKULLCROSS_UNIT_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SKULLCROSS_UNIT_55"/>
+			<m_ObjectName text="ICON_SKULLCROSS_UNIT_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SKULLCROSS_UNIT_50"/>
+			<m_ObjectName text="ICON_SKULLCROSS_UNIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SKULLCROSS_UNIT_45"/>
+			<m_ObjectName text="ICON_SKULLCROSS_UNIT_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_SKULLCROSS_UNIT_32"/>
+			<m_ObjectName text="ICON_SKULLCROSS_UNIT_32"/>
 		</Element>
 		<!--unit portrait-->
 		<Element>
