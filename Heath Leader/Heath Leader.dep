@@ -9,6 +9,7 @@
 		<Element>
 			<ConsumerName text="Units"/>
 			<ArtDefDependencyPaths/>
+				<Element text="Units.artdef"/>
 			<LibraryDependencies>
 				<Element text="Unit"/>
 				<Element text="VFX"/>
