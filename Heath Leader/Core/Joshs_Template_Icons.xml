@@ -24,6 +24,7 @@
 
 		<Row Name="ICON_ATLAS_CIV_SHOSHONE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_SHOSHONE_32.dds"/>
 		<Row Name="ICON_ATLAS_CIV_SHOSHONE" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_SHOSHONE_45.dds"/>
+		<Row Name="ICON_ATLAS_CIV_SHOSHONE" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_SHOSHONE_48.dds"/>
 		<Row Name="ICON_ATLAS_CIV_SHOSHONE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_SHOSHONE_50.dds"/>
 		<Row Name="ICON_ATLAS_CIV_SHOSHONE" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_SHOSHONE_55.dds"/>
 		<Row Name="ICON_ATLAS_CIV_SHOSHONE" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_SHOSHONE_64.dds"/>

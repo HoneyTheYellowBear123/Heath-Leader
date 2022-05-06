@@ -86,6 +86,10 @@
 			<m_ObjectName text="ICON_CIV_SHOSHONE_50"/>
 		</Element>
 		<Element>
+			<m_EntryID text="ICON_CIV_SHOSHONE_48"/>
+			<m_ObjectName text="ICON_CIV_SHOSHONE_48"/>
+		</Element>
+		<Element>
 			<m_EntryID text="ICON_CIV_SHOSHONE_45"/>
 			<m_ObjectName text="ICON_CIV_SHOSHONE_45"/>
 		</Element>
