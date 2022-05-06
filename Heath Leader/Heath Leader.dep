@@ -267,6 +267,7 @@
 		<Element>
 			<ConsumerName text="Audio"/>
 			<ArtDefDependencyPaths>
+				<Element text="Units.artdef"/>
 				<Element text="Districts.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>

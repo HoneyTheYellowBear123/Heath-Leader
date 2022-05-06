@@ -31,7 +31,6 @@
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
 				<Element text="Civilizations.artdef"/>
-				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -578,7 +577,6 @@
 		<Element>
 			<libraryName text="TileBase"/>
 			<relativePackagePaths>
-				<Element text="landmarks/tilebases"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
