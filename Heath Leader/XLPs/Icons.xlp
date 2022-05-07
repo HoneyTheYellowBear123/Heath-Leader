@@ -176,6 +176,31 @@
 			<m_EntryID text="ICON_SKULLCROSS_UNIT_32"/>
 			<m_ObjectName text="ICON_SKULLCROSS_UNIT_32"/>
 		</Element>
+		<!--unit portrait-->
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_256"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_200"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_38"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_70"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_50"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_95"/>
+			<m_ObjectName text="ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_95"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
