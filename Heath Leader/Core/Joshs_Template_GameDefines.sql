@@ -5,31 +5,31 @@
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,							Kind)
-VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'KIND_LEADER');	
+VALUES	('LEADER_HEATH_MURPHY',	'KIND_LEADER');	
 --------------------------------------------------------------------------------------------------------------------------
 -- Leaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Leaders	
 		(LeaderType,					Name,										InheritFrom,		SceneLayers)
-VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'LOC_LEADER_JOEL_SACAGAWEA_SHOSHONE_NAME',		'LEADER_DEFAULT',	4);	
+VALUES	('LEADER_HEATH_MURPHY',	'LOC_LEADER_HEATH_MURPHY_NAME',		'LEADER_DEFAULT',	4);	
 --------------------------------------------------------------------------------------------------------------------------
 -- LeaderQuotes
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderQuotes	
 		(LeaderType,			Quote)
-VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'LOC_PEDIA_LEADERS_PAGE_LEADER_JOEL_SACAGAWEA_SHOSHONE_QUOTE');	
+VALUES	('LEADER_HEATH_MURPHY',	'LOC_PEDIA_LEADERS_PAGE_LEADER_HEATH_MURPHY_QUOTE');	
 --------------------------------------------------------------------------------------------------------------------------
 -- HistoricalAgendas
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO HistoricalAgendas	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'AGENDA_ENVIRONMENTALIST');
+VALUES	('LEADER_HEATH_MURPHY',	'AGENDA_ENVIRONMENTALIST');
 --------------------------------------------------------------------------------------------------------------------------
 -- AgendaPreferredLeaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO AgendaPreferredLeaders	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'AGENDA_EXPLORER');	
+VALUES	('LEADER_HEATH_MURPHY',	'AGENDA_EXPLORER');	
 
 
 
@@ -42,7 +42,7 @@ VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'AGENDA_EXPLORER');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LoadingInfo	
 		(LeaderType,						BackgroundImage, 						ForegroundImage,						PlayDawnOfManAudio)
-VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LEADER_SACAGAWEA_SHOSHONE_BACKGROUND',		'LEADER_SACAGAWEA_SHOSHONE_NEUTRAL',			0);	
+VALUES	('LEADER_HEATH_MURPHY',		'LEADER_SACAGAWEA_SHOSHONE_BACKGROUND',		'LEADER_SACAGAWEA_SHOSHONE_NEUTRAL',			0);	
 --==========================================================================================================================
 -- CIVILIZATIONS
 --==========================================================================================================================
@@ -150,7 +150,7 @@ VALUES	('CIVILIZATION_JOEL_CIV_SHOSHONE',	'LOC_CIVINFO_LOCATION',		'LOC_CIVINFO_
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO CivilizationLeaders	
 		(CivilizationType,						LeaderType,			CapitalName)
-VALUES	('CIVILIZATION_JOEL_CIV_SHOSHONE',	'LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LOC_CITY_NAME_JOEL_CIV_SHOSHONE_1');
+VALUES	('CIVILIZATION_JOEL_CIV_SHOSHONE',	'LEADER_HEATH_MURPHY',		'LOC_CITY_NAME_JOEL_CIV_SHOSHONE_1');
 
 
 
@@ -162,7 +162,7 @@ VALUES	('CIVILIZATION_JOEL_CIV_SHOSHONE',	'LEADER_JOEL_SACAGAWEA_SHOSHONE',		'LO
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO DiplomacyInfo			
 		(Type,								BackgroundImage)
-VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',		'ART_LEADER_SACAGAWEA_SHOSHONE.dds');
+VALUES	('LEADER_HEATH_MURPHY',		'ART_LEADER_SACAGAWEA_SHOSHONE.dds');
 
 
 
@@ -189,20 +189,20 @@ VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',		'ART_LEADER_SACAGAWEA_SHOSHONE.dds');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,														Kind)
-VALUES	('TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE',						'KIND_TRAIT');	
+VALUES	('TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE',						'KIND_TRAIT');	
 --------------------------------------------------------------------------------------------------------------------------			
 -- Traits			
 --------------------------------------------------------------------------------------------------------------------------				
 INSERT INTO Traits				
 		(TraitType,													Name,													Description)
-VALUES	('TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE',						'LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_NAME',			'LOC_TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE_DESCRIPTION');	
+VALUES	('TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE',						'LOC_TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE_NAME',			'LOC_TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE_DESCRIPTION');	
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,													ModifierId)
-VALUES	('TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE',						'JOEL_LEADER_SACAGAWEA_FAST_SETTLE'),
-		('TRAIT_LEADER_JOEL_SACAGAWEA_SHOSHONE_FAST_SETTLE',						'JOEL_LEADER_SACAGAWEA_FAST_COST_SETTLE');
+VALUES	('TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE',						'JOEL_LEADER_SACAGAWEA_FAST_SETTLE'),
+		('TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE',						'JOEL_LEADER_SACAGAWEA_FAST_COST_SETTLE');
 		
 		
 --------------------------------------------------------------------------------------------------------------------------
@@ -602,7 +602,7 @@ VALUES
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderTraits	
 		(LeaderType,			TraitType)
-VALUES	('LEADER_JOEL_SACAGAWEA_SHOSHONE',	'TRAIT_LEADER_HEATH_COFFEE');	
+VALUES	('LEADER_HEATH_MURPHY',	'TRAIT_LEADER_HEATH_COFFEE');	
 
 
 
