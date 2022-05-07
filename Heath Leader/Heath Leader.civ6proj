@@ -51,9 +51,6 @@
     <Content Include="Core\Colour.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Joshs_Template_Buildings.xml">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Core\Joshs_Template_Config.sql">
       <SubType>Content</SubType>
     </Content>
@@ -64,9 +61,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Joshs_Template_Icons.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Core\NewUnit_Gameplay.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Core\Starting_Location.xml">
@@ -133,21 +127,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_128.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_45.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_55.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_64.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_80.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_SHOSHONE_45.dds">
@@ -306,6 +285,42 @@
     <Content Include="Textures\ICON_SKULLCROSS_UNIT_80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_70.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_95.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_95.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
@@ -313,69 +328,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_SACAGAWEA.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_32.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_55.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_ARROW_UNIT_80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_128.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_128.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_32.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_38.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_BUILDING_WIGWAM_80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_SHOSHONE_256.tex">

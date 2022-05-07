@@ -69,32 +69,7 @@
 			<m_EntryID text="ICON_CIV_SHOSHONE_32"/>
 			<m_ObjectName text="ICON_CIV_SHOSHONE_32"/>
 		</Element>
-		<!--new icon-->
-		<Element>
-			<m_EntryID text="ICON_BUILDING_WIGWAM_256"/>
-			<m_ObjectName text="ICON_BUILDING_WIGWAM_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_BUILDING_WIGWAM_128"/>
-			<m_ObjectName text="ICON_BUILDING_WIGWAM_128"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_BUILDING_WIGWAM_80"/>
-			<m_ObjectName text="ICON_BUILDING_WIGWAM_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_BUILDING_WIGWAM_50"/>
-			<m_ObjectName text="ICON_BUILDING_WIGWAM_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_BUILDING_WIGWAM_38"/>
-			<m_ObjectName text="ICON_BUILDING_WIGWAM_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_BUILDING_WIGWAM_32"/>
-			<m_ObjectName text="ICON_BUILDING_WIGWAM_32"/>
-		</Element>
-		<!--new icon-->
+		<!--custom district-->
 		<Element>
 			<m_EntryID text="ICON_DISTRICT_SOLSTICE_CENTER_128"/>
 			<m_ObjectName text="ICON_DISTRICT_SOLSTICE_CENTER_128"/>
@@ -120,34 +95,6 @@
 			<m_ObjectName text="ICON_DISTRICT_SOLSTICE_CENTER_80"/>
 		</Element>
 		<!--unit icon-->
-		<Element>
-			<m_EntryID text="ICON_ARROW_UNIT_256"/>
-			<m_ObjectName text="ICON_ARROW_UNIT_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_ARROW_UNIT_80"/>
-			<m_ObjectName text="ICON_ARROW_UNIT_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_ARROW_UNIT_64"/>
-			<m_ObjectName text="ICON_ARROW_UNIT_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_ARROW_UNIT_55"/>
-			<m_ObjectName text="ICON_ARROW_UNIT_55"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_ARROW_UNIT_50"/>
-			<m_ObjectName text="ICON_ARROW_UNIT_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_ARROW_UNIT_45"/>
-			<m_ObjectName text="ICON_ARROW_UNIT_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_ARROW_UNIT_32"/>
-			<m_ObjectName text="ICON_ARROW_UNIT_32"/>
-		</Element>
 		<Element>
 			<m_EntryID text="ICON_SKULLCROSS_UNIT_256"/>
 			<m_ObjectName text="ICON_SKULLCROSS_UNIT_256"/>

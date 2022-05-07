@@ -25,25 +25,7 @@
 		<Row Name="ICON_ATLAS_CIV_SHOSHONE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_SHOSHONE_256.dds"/>
 
 
-		<!--Building Icons-->
-
-		<Row Name="ICON_ATLAS_BUILDING_WIGWAM" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_WIGWAM_32.dds"/>
-		<Row Name="ICON_ATLAS_BUILDING_WIGWAM" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_WIGWAM_38.dds"/>
-		<Row Name="ICON_ATLAS_BUILDING_WIGWAM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_WIGWAM_50.dds"/>
-		<Row Name="ICON_ATLAS_BUILDING_WIGWAM" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_WIGWAM_80.dds"/>
-		<Row Name="ICON_ATLAS_BUILDING_WIGWAM" IconSize="128"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_WIGWAM_128.dds"/>
-		<Row Name="ICON_ATLAS_BUILDING_WIGWAM" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_WIGWAM_256.dds"/>
-
 		<!--Unit Icons-->
-
-		<Row Name="ICON_ATLAS_ARROW_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ARROW_UNIT_32.dds"/>
-		<Row Name="ICON_ATLAS_ARROW_UNIT" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ARROW_UNIT_45.dds"/>
-		<Row Name="ICON_ATLAS_ARROW_UNIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ARROW_UNIT_50.dds"/>
-		<Row Name="ICON_ATLAS_ARROW_UNIT" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ARROW_UNIT_55.dds"/>
-		<Row Name="ICON_ATLAS_ARROW_UNIT" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ARROW_UNIT_64.dds"/>
-		<Row Name="ICON_ATLAS_ARROW_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ARROW_UNIT_80.dds"/>
-		<Row Name="ICON_ATLAS_ARROW_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_ARROW_UNIT_256.dds"/>
-
 
 		<Row Name="ICON_ATLAS_SKULLCROSS_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SKULLCROSS_UNIT_32.dds"/>
 		<Row Name="ICON_ATLAS_SKULLCROSS_UNIT" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_SKULLCROSS_UNIT_45.dds"/>
@@ -89,12 +71,10 @@
 
 		<Row Name="ICON_DISTRICT_SOLSTICE_CENTER" Atlas="ICON_ATLAS_DISTRICT_SOLSTICE_CENTER" Index="0"/>
 		
-		<Row Name="ICON_BUILDING_WIGWAM" Atlas="ICON_ATLAS_BUILDING_WIGWAM" Index="0"/>
->
+
 
 
 		<!-- Custom Unit -->
-		<Row Name="ICON_UNIT_INDIAN_SPEAR" Atlas="ICON_ATLAS_ARROW_UNIT" Index="0"/>
 
 		<Row Name="ICON_UNIT_LEHEATHEL_CROSSBOWMAN_PORTRAIT" Atlas="ICON_ATLAS_LEHEATHEL_CROSSBOWMAN_PORTRAIT" Index="0"/>
 		<Row Name="ICON_UNIT_LEHEATHEL_CROSSBOWMAN" Atlas="ICON_ATLAS_SKULLCROSS_UNIT" Index="0"/>
