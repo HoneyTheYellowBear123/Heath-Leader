@@ -12,7 +12,7 @@
 		<Row Tag="LOC_CIVILIZATION_HEATH_BOO_BOIS_ADJECTIVE" Language="en_US">
 			<Text>BooBoizian</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_HEATH_BOO_BOIS_DESCRIPTION_JOEL_CIVILIZATION" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HEATH_BOO_BOIS_DESCRIPTION" Language="en_US">
 			<Text>BooBoizian</Text>
 		</Row>
 		<!--Pedia-->
@@ -479,53 +479,6 @@
 		</Row>
 		
 		
-		
-		<Row Tag="LOC_TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE_NAME" Language="en_US">
-			<Text>Western Expedition</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE_DESCRIPTION" Language="en_US">
-			<Text>+50% [Icon_Production] Production towards Settlers.</Text>
-		</Row>
-
-
-		<Row Tag="LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_NAME" Language="en_US">
-			<Text>Reservation Land</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_SHOSHONE_JOEL_MOVE_WOODS_DESCRIPTION" Language="en_US">
-			<Text>Unimproved Forest tiles provide +1 [Icon_Faith] Faith and +1 Appeal to adjacent tiles. After discovering Early Empire they receive +1 [Icon_Culture] Culture, and +1 [Icon_Culture] Culture and +1 [Icon_Science] Science after discovering Conservation. National Parks provide +10 [Icon_Gold] Gold. </Text>
-		</Row>
-
-	
-
-
-
-
-	
-
-
-
-		<Row Tag="LOC_BUILDING_WIGWAM_NAME" Language="en_US">
-			<Text>Wigwam</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_WIGWAM_DESCRIPTION" Language="en_US">
-			<Text>Worked [Icon_RESOURCE_Deer] Deer [Icon_RESOURCE_Fish] Fish [Icon_RESOURCE_Furs] Furs [Icon_RESOURCE_Truffles] Truffles [Icon_RESOURCE_SPICES] Spices [Icon_RESOURCE_SUGAR] Sugar [Icon_RESOURCE_TOBACCO] Tobacco [Icon_RESOURCE_COCOA] Cocoa [Icon_RESOURCE_COFFEE] Coffee [Icon_RESOURCE_TEA] Tea [Icon_RESOURCE_WHEAT] Wheat and [Icon_RESOURCE_RICE] Rice tiles in this city produce +1 [Icon_Food] food. +4 [Icon_Housing] Housing.  Replaces Granary.</Text>
-		</Row>
-
-
-
-
-
-
-
-
-		<!-- INDIAN_SPEAR -->
-		<Row Tag="LOC_UNIT_INDIAN_SPEAR_NAME" Language="en_US">
-			<Text>Pathfinder</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_INDIAN_SPEAR_DESCRIPTION" Language="en_US">
-			<Text>A unique unit only Shoshone Indians can build that replaces the scout. Acts as a support unit that gives +1 [Icon_Movement] Movement to adjacent units. Adjacent units can also move over Forests, Jungles, and Hills easier.</Text>
-		</Row>
-
 
 
 

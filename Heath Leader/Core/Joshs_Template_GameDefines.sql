@@ -167,76 +167,6 @@ VALUES	('LEADER_HEATH_MURPHY',		'ART_LEADER_SACAGAWEA_SHOSHONE.dds');
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
---==========================================================================================================================
--- LEADERS: TRAITS
---==========================================================================================================================
--- Types
---------------------------------------------------------------------------------------------------------------------------	
-INSERT INTO Types	
-		(Type,														Kind)
-VALUES	('TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE',						'KIND_TRAIT');	
---------------------------------------------------------------------------------------------------------------------------			
--- Traits			
---------------------------------------------------------------------------------------------------------------------------				
-INSERT INTO Traits				
-		(TraitType,													Name,													Description)
-VALUES	('TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE',						'LOC_TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE_NAME',			'LOC_TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE_DESCRIPTION');	
---------------------------------------------------------------------------------------------------------------------------		
--- TraitModifiers		
---------------------------------------------------------------------------------------------------------------------------			
-INSERT INTO TraitModifiers			
-		(TraitType,													ModifierId)
-VALUES	('TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE',						'JOEL_LEADER_SACAGAWEA_FAST_SETTLE'),
-		('TRAIT_LEADER_HEATH_MURPHY_FAST_SETTLE',						'JOEL_LEADER_SACAGAWEA_FAST_COST_SETTLE');
-		
-		
---------------------------------------------------------------------------------------------------------------------------
--- Modifiers
---------------------------------------------------------------------------------------------------------------------------
-INSERT INTO Modifiers	
-		(ModifierId,												ModifierType,				SubjectRequirementSetId)										
-VALUES	('JOEL_LEADER_SACAGAWEA_FAST_SETTLE',			'MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION',					Null),
-		('JOEL_LEADER_SACAGAWEA_FAST_COST_SETTLE',			'MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER',					Null),
-		('JOEL_LEADER_SACAGAWEA_FAST_COST_SETTLE_ATTACH',		'MODIFIER_CITY_ADJUST_SETTLER_CONSUME_POPULATION',			Null);
-	
-	
-		
---------------------------------------------------------------------------------------------------------------------------
--- ModifierArguments
---------------------------------------------------------------------------------------------------------------------------
-INSERT INTO ModifierArguments
-		(ModifierId,												Name,							Value)
-VALUES	
-		('JOEL_LEADER_SACAGAWEA_FAST_SETTLE',						'UnitType',										'UNIT_SETTLER'),
-		('JOEL_LEADER_SACAGAWEA_FAST_SETTLE',						'Amount',												'50'),
-		('JOEL_LEADER_SACAGAWEA_FAST_COST_SETTLE',					'ModifierId',											''),
-		('JOEL_LEADER_SACAGAWEA_FAST_COST_SETTLE_ATTACH',			'Enabled',												'false');
-
-
-
-
-
-
-
-
-
-
-
 --==========================================================================================================================
 -- LEADERS: TRAITS
 --==========================================================================================================================
@@ -290,16 +220,7 @@ VALUES	('HEATH_COFFEE_MODIFIER_ID',                        'ResourceType',      
 --=======================================================
 -- +1 movement, sight, and range, +5 damage
 
---============================================================
--- UU: Uwassiye
---============================================================
--- Classical Naval Raider unit. Replaces the Quadrireme
--- When within 4 tiles of an embarked trader, 
---		gains +10 to combat
---		gains +1 move
---		and may make a second attack.
---============================================================
--- Not hard, the majority of the buff is from the fact that you get an early privateer anyways
+
 INSERT INTO Types
 			(Type,                                        Kind)
 VALUES      ('UNIT_LEHEATHEL_CROSSBOWMAN',               'KIND_UNIT'),
@@ -314,14 +235,6 @@ INSERT INTO Units
 		(UnitType,						Name,									Description,									Domain,			FormationClass,				PromotionClass,					BaseSightRange,	BaseMoves,	Combat,	RangedCombat,	Range,	ZoneOfControl,	Maintenance,	PurchaseYield,	MustPurchase,	Cost,	CostProgressionModel,	CostProgressionParam1,	TraitType,											PrereqTech,				MandatoryObsoleteTech,            AdvisorType)
 VALUES	('UNIT_LEHEATHEL_CROSSBOWMAN', 'LOC_UNIT_LEHEATHEL_CROSSBOWMAN_NAME', 'LOC_UNIT_LEHEATHEL_CROSSBOWMAN_DESCRIPTION', 'DOMAIN_LAND', 'FORMATION_CLASS_LAND_COMBAT', 'PROMOTION_CLASS_RANGED',     3,              3,          30,     45,             3,      0,              3,              'YIELD_GOLD',   0,              180,    'NO_COST_PROGRESSION',  0,                      'TRAIT_CIVILIZATION_UNIT_LEHEATHEL_CROSSBOWMAN',            'TECH_MACHINERY',       'TECH_ADVANCED_BALLISTICS',       'ADVISOR_CONQUEST' );
 		
---		('UNIT_LIME_SOMALIA_UWASSIYE',	'LOC_UNIT_LIME_SOMALIA_UWASSIYE_NAME',	'LOC_UNIT_LIME_SOMALIA_UWASSIYE_DESCRIPTION',	'DOMAIN_SEA',	'FORMATION_CLASS_NAVAL',	'PROMOTION_CLASS_NAVAL_RAIDER',	3,				3,			20,		25,				1,		0,				1,				'YIELD_GOLD',	0,				65,		'NO_COST_PROGRESSION',	0,						'TRAIT_CIVILIZATION_UNIT_LIME_SOMALIA_UWASSIYE',	'TECH_SHIPBUILDING',	'PSEUDOYIELD_UNIT_NAVAL_COMBAT',	'CIVIC_EXPLORATION',	'ADVISOR_CONQUEST');
-
--- I would do dividers
--- But tbh they get so tedious and I often dek what the point of em is
--- Is it just to break up the code?
--- Doesn't really help for me
--- Regardless, I almost guarantee I screwed up the units insert at some point, there are too goddamn many fields
--- Honestly, collapsibles would be nice
 
 INSERT INTO UnitAIInfos	
 		(UnitType,								AiType)
@@ -336,7 +249,7 @@ VALUES	('CLASS_LEHEATHEL_CROSSBOWMAN',	'ABILITY_CLASS');
 INSERT INTO TypeTags
 		(Type,											Tag)
 VALUES	('UNIT_LEHEATHEL_CROSSBOWMAN',					'CLASS_LEHEATHEL_CROSSBOWMAN');
---		('ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY',	'CLASS_LIME_SOMALIA_UWASSIYE');
+
 
 INSERT INTO UnitReplaces
 		(CivUniqueUnitType,				ReplacesUnitType)
@@ -362,54 +275,6 @@ FROM TypeTags
 INSERT INTO UnitUpgrades
 		(Unit,							UpgradeUnit)
 VALUES ('UNIT_LEHEATHEL_CROSSBOWMAN',	'UNIT_FIELD_CANNON');
----------------------------------------------------------------
-
---INSERT INTO UnitAbilities
---		(UnitAbilityType,								Name,													Description)
---VALUES	('ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY',	'LOC_ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY_NAME',	'LOC_ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY_DESCRIPTION');
-
-
---INSERT INTO UnitAbilityModifiers			
---		(UnitAbilityType,								ModifierId)
---VALUES	('ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY',	'MOD_LIME_SOMALIA_UWASSIYE_MORE_COMBAT'),
---		('ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY',	'UNIT_COASTAL_RAID'),
---		('ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY',	'MOD_LIME_SOMALIA_UWASSIYE_MORE_ATTACKS');
-
---INSERT INTO Modifiers
---		(ModifierId,									ModifierType,								SubjectRequirementSetId)
---VALUES	('MOD_LIME_SOMALIA_UWASSIYE_MORE_COMBAT',		'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH',		'REQSET_LIME_SOMALIA_UWASSIYE_NEAR_TRADER'),	
-		--('MOD_LIME_SOMALIA_UWASSIYE_MORE_MOVES',		'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT',		'REQSET_LIME_SOMALIA_UWASSIYE_NEAR_TRADER'),
---		('MOD_LIME_SOMALIA_UWASSIYE_MORE_ATTACKS',		'MODIFIER_UNIT_ADJUST_NUM_ATTACKS',			'REQSET_LIME_SOMALIA_UWASSIYE_NEAR_TRADER');
-
---INSERT INTO ModifierStrings
---		(ModifierId,									Context,	Text)
---VALUES	('MOD_LIME_SOMALIA_UWASSIYE_MORE_COMBAT',		'Preview',	'LOC_ABILITY_LIME_SOMALIA_UWASSIYE_STRENGTH_DESCRIPTION'),
-		--('MOD_LIME_SOMALIA_UWASSIYE_MORE_MOVES',		'Preview',	'LOC_ABILITY_LIME_SOMALIA_UWASSIYE_PIRATE_FURY_MOVES_DESCRIPTION'),
---		('MOD_LIME_SOMALIA_UWASSIYE_MORE_ATTACKS',		'Preview',	'LOC_ABILITY_LIME_SOMALIA_UWASSIYE_ATTACKS_DESCRIPTION');
-
---INSERT INTO ModifierArguments
---		(ModifierId,									Name,			Value)
---VALUES	('MOD_LIME_SOMALIA_UWASSIYE_MORE_COMBAT',		'Amount',		5),
-	--	('MOD_LIME_SOMALIA_UWASSIYE_MORE_MOVES',		'Amount',		1),
---		('MOD_LIME_SOMALIA_UWASSIYE_MORE_ATTACKS',		'Amount',		1);
-
---INSERT INTO RequirementSets
---		(RequirementSetId,								RequirementSetType)
---VALUES	('REQSET_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',	'REQUIREMENTSET_TEST_ANY');
-
---INSERT INTO RequirementSetRequirements
---		(RequirementSetId,								RequirementId)
---VALUES	('REQSET_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',	'REQ_LIME_SOMALIA_UWASSIYE_NEAR_TRADER');
-
---INSERT INTO Requirements
---		(RequirementId,									RequirementType)
---VALUES	('REQ_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',		'REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES');
-
---INSERT INTO RequirementArguments
---		(RequirementId,									Name,			Value)
---VALUES	('REQ_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',		'UnitType',		'UNIT_TRADER'),
---		('REQ_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',		'MinRange',		0),
---		('REQ_LIME_SOMALIA_UWASSIYE_NEAR_TRADER',		'MaxRange',		3);
 
 
 
@@ -468,14 +333,7 @@ VALUES  ( 'DISTRICT_SOLSTICE_CENTER', 'Mountain_Faith1'),
 INSERT INTO District_GreatPersonPoints
 			(DistrictType,                   GreatPersonClassType,              PointsPerTurn)
 VALUES		('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_PROPHET',      '2');
---			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_GENERAL',      '0.6'),
---			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_ADMIRAL',      '0.6'),
---			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_SCIENTIST',      '0.6'),
---			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_MERCHANT',      '0.6'),
---			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_ENGINEER',      '0.6'),
---			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_WRITER',      '0.6'),
---			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_ARTIST',      '0.6'),
---			('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_MUSICIAN',      '0.6');
+\
 
 INSERT INTO District_TradeRouteYields
 			(DistrictType,				      YieldType,		YieldChangeAsOrigin,		YieldChangeAsDomesticDestination,		YieldChangeAsInternationalDestination)
@@ -486,11 +344,6 @@ INSERT INTO District_CitizenYieldChanges
 			(DistrictType,                              YieldType,                    YieldChange)
 VALUES      ('DISTRICT_SOLSTICE_CENTER',                'YIELD_FAITH',                '2');
 
-
-
---INSERT INTO Modifiers
---			(ModifierID,                 ModifierType,            SubjectRequirementSetID)
---VALUES		('TRAIT_EXPENDED_GREAT_PERSON_TILES_HEATH',  'MODIFIER_PLAYER_CITIES_ADD_EXPENDED_GREAT_PERSON_TILES',     'REQUIREMENT_SET_CITY_HAS_SOLSTICE_CENTER');
 
 INSERT INTO RequirementSets
 			(RequirementSetID,       RequirementSetType)
@@ -521,7 +374,6 @@ INSERT INTO TraitModifiers
 VALUES		('TRAIT_CIVILIZATION_DISTRICT_SOLSTICE_CENTER',    'TRAIT_SHRINE_MUSICIAN_POINTS'),
 			('TRAIT_CIVILIZATION_DISTRICT_SOLSTICE_CENTER',    'TRAIT_TEMPLE_SCIENTIST_POINTS'),
 			('TRAIT_CIVILIZATION_DISTRICT_SOLSTICE_CENTER',    'TRAIT_TIER3_RELIGION_ENGINEER_POINTS');
---			('TRAIT_CIVILIZATION_DISTRICT_SOLSTICE_CENTER',    'TRAIT_EXPENDED_GREAT_PERSON_TILES_HEATH'),
 
 
 INSERT INTO ModifierArguments
