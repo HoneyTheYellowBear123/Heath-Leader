@@ -80,7 +80,7 @@
 	<IconDefinitions>
 		<!--Leader Icons-->
 
-		<Row Name="ICON_LEADER_HEATH_MURPHY_HEAD" Atlas="ICON_ATLAS_HEATH_HEAD" Index="0"/>
+		<Row Name="ICON_LEADER_HEATH_MURPHY" Atlas="ICON_ATLAS_HEATH_HEAD" Index="0"/>
 		
 		<!--Civilization Icons-->
 		<Row Name="ICON_CIVILIZATION_JOEL_CIV_SHOSHONE" Atlas="ICON_ATLAS_CIV_SHOSHONE" Index="0"/>
