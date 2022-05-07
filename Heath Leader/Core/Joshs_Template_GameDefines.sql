@@ -42,7 +42,7 @@ VALUES	('LEADER_HEATH_MURPHY',	'AGENDA_EXPLORER');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LoadingInfo	
 		(LeaderType,						BackgroundImage, 						ForegroundImage,						PlayDawnOfManAudio)
-VALUES	('LEADER_HEATH_MURPHY',		'LEADER_SACAGAWEA_SHOSHONE_BACKGROUND',		'LEADER_SACAGAWEA_SHOSHONE_NEUTRAL',			0);	
+VALUES	('LEADER_HEATH_MURPHY',		'LEADER_HEATH_BOO_BOIS_BACKGROUND',		'LEADER_SACAGAWEA_SHOSHONE_NEUTRAL',			0);	
 --==========================================================================================================================
 -- CIVILIZATIONS
 --==========================================================================================================================
@@ -162,7 +162,7 @@ VALUES	('CIVILIZATION_HEATH_BOO_BOIS',	'LEADER_HEATH_MURPHY',		'LOC_CITY_NAME_HE
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO DiplomacyInfo			
 		(Type,								BackgroundImage)
-VALUES	('LEADER_HEATH_MURPHY',		'ART_LEADER_SACAGAWEA_SHOSHONE.dds');
+VALUES	('LEADER_HEATH_MURPHY',		'ART_LEADER_HEATH_BOO_BOIS.dds');
 
 
 

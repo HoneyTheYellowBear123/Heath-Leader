@@ -10,8 +10,8 @@
 	<m_PackageName text="LEADER_HEATH_MURPHY"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="ART_LEADER_SACAGAWEA_SHOSHONE"/>
-			<m_ObjectName text="ART_LEADER_SACAGAWEA_SHOSHONE"/>
+			<m_EntryID text="ART_LEADER_HEATH_BOO_BOIS"/>
+			<m_ObjectName text="ART_LEADER_HEATH_BOO_BOIS"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

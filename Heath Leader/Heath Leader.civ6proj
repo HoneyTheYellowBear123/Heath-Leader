@@ -72,10 +72,10 @@
     <Content Include="Heath Leader.dep">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ART_LEADER_SACAGAWEA_SHOSHONE.dds">
+    <Content Include="Textures\ART_LEADER_HEATH_BOO_BOIS.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ART_LEADER_SACAGAWEA_SHOSHONE.tex">
+    <Content Include="Textures\ART_LEADER_HEATH_BOO_BOIS.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Districts_SolsticeCenter_Pillaged_Revealed.tex">
@@ -324,10 +324,10 @@
     <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_SACAGAWEA.dds">
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HEATH.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_SACAGAWEA.tex">
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HEATH.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_BOO_BOIS_256.tex">
