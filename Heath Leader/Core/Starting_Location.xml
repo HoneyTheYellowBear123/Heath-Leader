@@ -5,15 +5,15 @@
 <GameData>
 
 	-<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_JOEL_CIV_SHOSHONE" Tier="2" TerrainType="TERRAIN_GRASS"/>
+		<Row CivilizationType="CIVILIZATION_HEATH_BOO_BOIS" Tier="2" TerrainType="TERRAIN_GRASS"/>
 	</StartBiasTerrains>
 
 	-<StartBiasFeatures>
-		<Row CivilizationType="CIVILIZATION_JOEL_CIV_SHOSHONE" Tier="1" FeatureType="FEATURE_FOREST"/>
+		<Row CivilizationType="CIVILIZATION_HEATH_BOO_BOIS" Tier="1" FeatureType="FEATURE_FOREST"/>
 	</StartBiasFeatures>
 
 	-<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_JOEL_CIV_SHOSHONE" Tier="3" ResourceType="RESOURCE_DEER"/>
+		<Row CivilizationType="CIVILIZATION_HEATH_BOO_BOIS" Tier="3" ResourceType="RESOURCE_DEER"/>
 	</StartBiasResources>
 
 </GameData>
