@@ -176,31 +176,6 @@
 			<m_EntryID text="ICON_SKULLCROSS_UNIT_32"/>
 			<m_ObjectName text="ICON_SKULLCROSS_UNIT_32"/>
 		</Element>
-		<!--unit portrait-->
-		<Element>
-			<m_EntryID text="ICON_SCOUT_UNIT_256"/>
-			<m_ObjectName text="ICON_SCOUT_UNIT_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_SCOUT_UNIT_200"/>
-			<m_ObjectName text="ICON_SCOUT_UNIT_200"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_SCOUT_UNIT_38"/>
-			<m_ObjectName text="ICON_SCOUT_UNIT_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_SCOUT_UNIT_70"/>
-			<m_ObjectName text="ICON_SCOUT_UNIT_70"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_SCOUT_UNIT_50"/>
-			<m_ObjectName text="ICON_SCOUT_UNIT_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_SCOUT_UNIT_95"/>
-			<m_ObjectName text="ICON_SCOUT_UNIT_95"/>
-		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
