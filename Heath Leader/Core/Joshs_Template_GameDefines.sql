@@ -333,7 +333,7 @@ VALUES  ( 'DISTRICT_SOLSTICE_CENTER', 'Mountain_Faith1'),
 INSERT INTO District_GreatPersonPoints
 			(DistrictType,                   GreatPersonClassType,              PointsPerTurn)
 VALUES		('DISTRICT_SOLSTICE_CENTER',     'GREAT_PERSON_CLASS_PROPHET',      '2');
-\
+
 
 INSERT INTO District_TradeRouteYields
 			(DistrictType,				      YieldType,		YieldChangeAsOrigin,		YieldChangeAsDomesticDestination,		YieldChangeAsInternationalDestination)

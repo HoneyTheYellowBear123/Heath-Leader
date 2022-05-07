@@ -12,7 +12,7 @@
 		<Row Tag="LOC_CIVILIZATION_HEATH_BOO_BOIS_ADJECTIVE" Language="en_US">
 			<Text>BooBoizian</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_HEATH_BOO_BOIS_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HEATH_BOO_BOIS_DESCRIPTION_CIVILIZATION" Language="en_US">
 			<Text>BooBoizian</Text>
 		</Row>
 		<!--Pedia-->
