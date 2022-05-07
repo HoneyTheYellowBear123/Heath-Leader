@@ -38,36 +38,36 @@
 			<m_ObjectName text="ICON_HEATH_HEAD_32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_CIV_SHOSHONE_256"/>
-			<m_ObjectName text="ICON_CIV_SHOSHONE_256"/>
+			<m_EntryID text="ICON_CIV_BOO_BOIS_256"/>
+			<m_ObjectName text="ICON_CIV_BOO_BOIS_256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_CIV_SHOSHONE_80"/>
-			<m_ObjectName text="ICON_CIV_SHOSHONE_80"/>
+			<m_EntryID text="ICON_CIV_BOO_BOIS_80"/>
+			<m_ObjectName text="ICON_CIV_BOO_BOIS_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_CIV_SHOSHONE_64"/>
-			<m_ObjectName text="ICON_CIV_SHOSHONE_64"/>
+			<m_EntryID text="ICON_CIV_BOO_BOIS_64"/>
+			<m_ObjectName text="ICON_CIV_BOO_BOIS_64"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_CIV_SHOSHONE_55"/>
-			<m_ObjectName text="ICON_CIV_SHOSHONE_55"/>
+			<m_EntryID text="ICON_CIV_BOO_BOIS_55"/>
+			<m_ObjectName text="ICON_CIV_BOO_BOIS_55"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_CIV_SHOSHONE_50"/>
-			<m_ObjectName text="ICON_CIV_SHOSHONE_50"/>
+			<m_EntryID text="ICON_CIV_BOO_BOIS_50"/>
+			<m_ObjectName text="ICON_CIV_BOO_BOIS_50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_CIV_SHOSHONE_48"/>
-			<m_ObjectName text="ICON_CIV_SHOSHONE_48"/>
+			<m_EntryID text="ICON_CIV_BOO_BOIS_48"/>
+			<m_ObjectName text="ICON_CIV_BOO_BOIS_48"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_CIV_SHOSHONE_45"/>
-			<m_ObjectName text="ICON_CIV_SHOSHONE_45"/>
+			<m_EntryID text="ICON_CIV_BOO_BOIS_45"/>
+			<m_ObjectName text="ICON_CIV_BOO_BOIS_45"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_CIV_SHOSHONE_32"/>
-			<m_ObjectName text="ICON_CIV_SHOSHONE_32"/>
+			<m_EntryID text="ICON_CIV_BOO_BOIS_32"/>
+			<m_ObjectName text="ICON_CIV_BOO_BOIS_32"/>
 		</Element>
 		<!--custom district-->
 		<Element>

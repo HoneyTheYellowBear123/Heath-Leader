@@ -114,10 +114,10 @@
     <Content Include="Textures\Districts_SolsticeCenter_Visible.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_48.dds">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_48.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_48.tex">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_48.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_128.dds">
@@ -129,25 +129,25 @@
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_128.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_45.dds">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_45.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_50.dds">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_50.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_55.dds">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_55.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_64.dds">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_64.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_80.dds">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_80.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_256.dds">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_32.dds">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_32.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_256.dds">
@@ -330,25 +330,25 @@
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_SACAGAWEA.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_256.tex">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_32.tex">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_32.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_45.tex">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_45.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_50.tex">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_50.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_55.tex">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_55.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_64.tex">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_64.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_CIV_SHOSHONE_80.tex">
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_BACKGROUND.dds">
