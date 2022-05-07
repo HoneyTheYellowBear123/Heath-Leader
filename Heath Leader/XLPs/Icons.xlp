@@ -10,34 +10,6 @@
 	<m_PackageName text="Icons"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="ICON_LEADER_SACAGAWEA_256"/>
-			<m_ObjectName text="ICON_LEADER_SACAGAWEA_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_SACAGAWEA_80"/>
-			<m_ObjectName text="ICON_LEADER_SACAGAWEA_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_SACAGAWEA_64"/>
-			<m_ObjectName text="ICON_LEADER_SACAGAWEA_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_SACAGAWEA_55"/>
-			<m_ObjectName text="ICON_LEADER_SACAGAWEA_55"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_SACAGAWEA_50"/>
-			<m_ObjectName text="ICON_LEADER_SACAGAWEA_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_SACAGAWEA_45"/>
-			<m_ObjectName text="ICON_LEADER_SACAGAWEA_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_SACAGAWEA_32"/>
-			<m_ObjectName text="ICON_LEADER_SACAGAWEA_32"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_HEATH_HEAD_256"/>
 			<m_ObjectName text="ICON_HEATH_HEAD_256"/>
 		</Element>
