@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Starting_Location -->
-<!-- Author: jwleo -->
-<!-- DateCreated: 7/26/2020 6:47:29 AM -->
+
 <GameData>
 
-	-<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_HEATH_BOO_BOIS" Tier="2" TerrainType="TERRAIN_GRASS"/>
-	</StartBiasTerrains>
-
-	-<StartBiasFeatures>
-		<Row CivilizationType="CIVILIZATION_HEATH_BOO_BOIS" Tier="1" FeatureType="FEATURE_FOREST"/>
-	</StartBiasFeatures>
 
 	-<StartBiasResources>
-		<Row CivilizationType="CIVILIZATION_HEATH_BOO_BOIS" Tier="3" ResourceType="RESOURCE_DEER"/>
+		<Row CivilizationType="CIVILIZATION_HEATH_BOO_BOIS" Tier="3" ResourceType="RESOURCE_ALUMINUM"/>
 	</StartBiasResources>
 
 </GameData>
