@@ -42,7 +42,7 @@ VALUES	('LEADER_HEATH_MURPHY',	'AGENDA_EXPLORER');
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LoadingInfo	
 		(LeaderType,						BackgroundImage, 						ForegroundImage,						PlayDawnOfManAudio)
-VALUES	('LEADER_HEATH_MURPHY',		'LEADER_HEATH_BOO_BOIS_BACKGROUND',		'LEADER_SACAGAWEA_SHOSHONE_NEUTRAL',			0);	
+VALUES	('LEADER_HEATH_MURPHY',		'LEADER_HEATH_BOO_BOIS_BACKGROUND',		'LEADER_HEATH_BOO_BOIS_NEUTRAL',			0);	
 --==========================================================================================================================
 -- CIVILIZATIONS
 --==========================================================================================================================

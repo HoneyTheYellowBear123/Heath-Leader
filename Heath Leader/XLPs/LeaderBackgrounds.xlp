@@ -10,8 +10,8 @@
 	<m_PackageName text="LeaderBackgrounds"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="LEADER_SACAGAWEA_SHOSHONE_BACKGROUND"/>
-			<m_ObjectName text="LEADER_SACAGAWEA_SHOSHONE_BACKGROUND"/>
+			<m_EntryID text="LEADER_HEATH_BOO_BOIS_BACKGROUND"/>
+			<m_ObjectName text="LEADER_HEATH_BOO_BOIS_BACKGROUND"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

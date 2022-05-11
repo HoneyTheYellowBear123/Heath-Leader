@@ -17,8 +17,8 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>Heath Leader</AssemblyName>
     <RootNamespace>Heath Leader</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>Heath Leader.Art.xml</File><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="NewAction"><File>Core/Colour.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Joshs_Template_GameDefines.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Joshs_Template_GameText.xml</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Joshs_Template_Icons.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>Heath Leader.Art.xml</File><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="NewAction"><File>Core/Colour.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/Honeybear_Template_Heath_Config.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Honeybear_Template_Heath_GameText.xml</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Honeybear_Template_Heath_Icons.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>Heath Leader.Art.xml</File><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="NewAction"><File>Core/Honeybear_Template_Heath_Colour.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/Honeybear_Template_Heath_GameDefines.sql</File></UpdateDatabase><UpdateText id="NewAction"><File>Core/Honeybear_Template_Heath_GameText.xml</File></UpdateText><UpdateIcons id="NewAction"><File>Core/Honeybear_Template_Heath_Icons.xml</File></UpdateIcons><UpdateArt id="NewAction"><File>Heath Leader.Art.xml</File><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="NewAction"><File>Core/Honeybear_Template_Heath_Colour.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -48,22 +48,22 @@
     <Content Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Colour.sql">
+    <Content Include="Core\Honeybear_Template_Heath_Colour.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Joshs_Template_Config.sql">
+    <Content Include="Core\Honeybear_Template_Heath_Config.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Joshs_Template_GameDefines.sql">
+    <Content Include="Core\Honeybear_Template_Heath_GameDefines.sql">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Joshs_Template_GameText.xml">
+    <Content Include="Core\Honeybear_Template_Heath_GameText.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Joshs_Template_Icons.xml">
+    <Content Include="Core\Honeybear_Template_Heath_Icons.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Core\Starting_Location.xml">
+    <Content Include="Core\Honeybear_Template_Heath_Starting_Location.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Heath Leader.Art.xml">
@@ -321,7 +321,7 @@
     <Content Include="Textures\ICON_UNIT_PORTRAIT_LEHEATHEL_CROSSBOWMAN_95.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.dds">
+    <Content Include="Textures\LEADER_HEATH_BOO_BOIS_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HEATH.dds">
@@ -351,13 +351,13 @@
     <Content Include="Textures\ICON_CIV_BOO_BOIS_80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_BACKGROUND.dds">
+    <Content Include="Textures\LEADER_HEATH_BOO_BOIS_BACKGROUND.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_BACKGROUND.tex">
+    <Content Include="Textures\LEADER_HEATH_BOO_BOIS_BACKGROUND.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\LEADER_SACAGAWEA_SHOSHONE_NEUTRAL.tex">
+    <Content Include="Textures\LEADER_HEATH_BOO_BOIS_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Icons.xlp">
