@@ -114,6 +114,12 @@
     <Content Include="Textures\Districts_SolsticeCenter_Visible.dds">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_BOO_BOIS_36.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_CIV_BOO_BOIS_48.dds">
       <SubType>Content</SubType>
     </Content>
@@ -121,9 +127,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_128.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_128.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_128.tex">
@@ -153,16 +156,10 @@
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_256.png">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_256.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_32.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_32.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_32.tex">
@@ -171,16 +168,10 @@
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_38.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_38.png">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_38.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_50.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_50.tex">
@@ -193,9 +184,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_80.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_DISTRICT_SOLSTICE_CENTER_80.tex">

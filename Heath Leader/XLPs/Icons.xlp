@@ -66,6 +66,10 @@
 			<m_ObjectName text="ICON_CIV_BOO_BOIS_45"/>
 		</Element>
 		<Element>
+			<m_EntryID text="ICON_CIV_BOO_BOIS_36"/>
+			<m_ObjectName text="ICON_CIV_BOO_BOIS_36"/>
+		</Element>
+		<Element>
 			<m_EntryID text="ICON_CIV_BOO_BOIS_32"/>
 			<m_ObjectName text="ICON_CIV_BOO_BOIS_32"/>
 		</Element>
