@@ -15,8 +15,11 @@
 		
 		<!--CIV Icons-->
 
+		<Row Name="ICON_ATLAS_CIV_BOO_BOIS" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_BOO_BOIS_22.dds"/>
+		<Row Name="ICON_ATLAS_CIV_BOO_BOIS" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_BOO_BOIS_30.dds"/>
 		<Row Name="ICON_ATLAS_CIV_BOO_BOIS" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_BOO_BOIS_32.dds"/>
 		<Row Name="ICON_ATLAS_CIV_BOO_BOIS" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_BOO_BOIS_36.dds"/>
+		<Row Name="ICON_ATLAS_CIV_BOO_BOIS" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_BOO_BOIS_44.dds"/>
 		<Row Name="ICON_ATLAS_CIV_BOO_BOIS" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_BOO_BOIS_45.dds"/>
 		<Row Name="ICON_ATLAS_CIV_BOO_BOIS" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_BOO_BOIS_48.dds"/>
 		<Row Name="ICON_ATLAS_CIV_BOO_BOIS" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_BOO_BOIS_50.dds"/>
